@@ -63142,6 +63142,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_spontaneous"/>
         </fbc:geneProductAssociation>
       </reaction>
+<<<<<<< HEAD
       <reaction id="R_ASPO5" name="L-aspartate oxidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
@@ -63150,17 +63151,33 @@
             <p>EC Number: 1.5.99</p>
             <p>BioCyc: META:RXN-9772</p>
             <p>BiGG models: iECB_1328;iECO26_1355;iEcSMS35_1347;iECNA114_1301;iECD_1391;iECABU_c1320;iECSP_1301;iE2348C_1286;iETEC_1333;iZ_1308;iUMN146_1321;iEKO11_1354;iAF1260b;iECH74115_1262;iNRG857_1313;iEC55989_1330;iNJ661;iECBD_1354;iSbBS512_1146;iEC042_1314;iB21_1397;iECSE_1348;iYL1228;iJO1366;iAF1260;iAPECO1_1312;iECS88_1305;iBWG_1329;iECDH1ME8569_1439;iG2583_1286;iSDY_1059;iECDH10B_1368;iECSF_1327;iY75_1357;STM_v1_0;ic_1306;iECIAI39_1322;iECOK1_1307;iUTI89_1310;iWFL_1372;iECO111_1330;iECW_1372;iECED1_1282;iECIAI1_1343;iUMNK88_1353;iEcE24377_1341;iECO103_1326;iEcolC_1368;iECP_1309;iPC815;iEcHS_1320;iLF82_1304;iEcDH1_1363;iECs_1301</p>
+=======
+      <reaction id="R_ASPO4" name="L-aspartate oxidase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>RHEA: 29191;29192;29193;29194</p>
+            <p>MetaNetX (MNX) Equation: MNXR81765</p>
+            <p>BiGG models: iECDH1ME8569_1439;iJO1366;iAF1260;iAPECO1_1312;iB21_1397;iECSE_1348;iYL1228;iEC042_1314;iECO111_1330;iECOK1_1307;STM_v1_0;iECDH10B_1368;iY75_1357;iSDY_1059;iG2583_1286;iUMN146_1321;iE2348C_1286;iETEC_1333;iZ_1308;iECABU_c1320;iECSP_1301;iECD_1391;iECNA114_1301;iECW_1372;iECB_1328;iECO26_1355;iEcSMS35_1347;iPC815;iECBD_1354;iSbBS512_1146;iEcolC_1368;iECP_1309;iEC55989_1330;iEcE24377_1341;iECO103_1326;iUMNK88_1353;iECED1_1282;iECH74115_1262;iECIAI1_1343;iNRG857_1313;iEKO11_1354;iAF1260b;iBWG_1329;iECS88_1305;iECs_1301;iEcDH1_1363;iEcHS_1320;iLF82_1304;iUTI89_1310;iWFL_1372;ic_1306;iECIAI39_1322;iECSF_1327</p>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
             <p>GAP_FILL: LB</p>
           </html>
         </notes>
         <listOfReactants>
           <speciesReference species="M_asp__L_c" stoichiometry="1" constant="true"/>
+<<<<<<< HEAD
           <speciesReference species="M_fum_c" stoichiometry="1" constant="true"/>
+=======
+          <speciesReference species="M_mqn8_c" stoichiometry="1" constant="true"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_iasp_c" stoichiometry="1" constant="true"/>
+<<<<<<< HEAD
           <speciesReference species="M_succ_c" stoichiometry="1" constant="true"/>
+=======
+          <speciesReference species="M_mql8_c" stoichiometry="1" constant="true"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
         </listOfProducts>
       </reaction>
       <reaction id="R_CHRPL" name="Chorismate pyruvate lyase" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -63252,6 +63269,7 @@
       <fbc:geneProduct fbc:id="G_WP_187429743_1" fbc:name="G_WP_187429743_1" fbc:label="G_WP_187429743_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429003_1" fbc:name="G_WP_187429003_1" fbc:label="G_WP_187429003_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428545_1" fbc:name="G_WP_187428545_1" fbc:label="G_WP_187428545_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187432166_1" fbc:name="G_WP_187432166_1" fbc:label="G_WP_187432166_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428458_1" fbc:name="G_WP_187428458_1" fbc:label="G_WP_187428458_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429734_1" fbc:name="G_WP_187429734_1" fbc:label="G_WP_187429734_1"/>
@@ -63268,14 +63286,38 @@
       <fbc:geneProduct fbc:id="G_WP_187429567_1" fbc:name="G_WP_187429567_1" fbc:label="G_WP_187429567_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432261_1" fbc:name="G_WP_187432261_1" fbc:label="G_WP_187432261_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429562_1" fbc:name="G_WP_187429562_1" fbc:label="G_WP_187429562_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429734_1" fbc:name="G_WP_187429734_1" fbc:label="G_WP_187429734_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428458_1" fbc:name="G_WP_187428458_1" fbc:label="G_WP_187428458_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429215_1" fbc:name="G_WP_187429215_1" fbc:label="G_WP_187429215_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432166_1" fbc:name="G_WP_187432166_1" fbc:label="G_WP_187432166_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429212_1" fbc:name="G_WP_187429212_1" fbc:label="G_WP_187429212_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431690_1" fbc:name="G_WP_187431690_1" fbc:label="G_WP_187431690_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430751_1" fbc:name="G_WP_187430751_1" fbc:label="G_WP_187430751_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429426_1" fbc:name="G_WP_187429426_1" fbc:label="G_WP_187429426_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432167_1" fbc:name="G_WP_187432167_1" fbc:label="G_WP_187432167_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428381_1" fbc:name="G_WP_187428381_1" fbc:label="G_WP_187428381_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430062_1" fbc:name="G_WP_187430062_1" fbc:label="G_WP_187430062_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428708_1" fbc:name="G_WP_187428708_1" fbc:label="G_WP_187428708_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429562_1" fbc:name="G_WP_187429562_1" fbc:label="G_WP_187429562_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432124_1" fbc:name="G_WP_187432124_1" fbc:label="G_WP_187432124_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429567_1" fbc:name="G_WP_187429567_1" fbc:label="G_WP_187429567_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432261_1" fbc:name="G_WP_187432261_1" fbc:label="G_WP_187432261_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428710_1" fbc:name="G_WP_187428710_1" fbc:label="G_WP_187428710_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430861_1" fbc:name="G_WP_187430861_1" fbc:label="G_WP_187430861_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429521_1" fbc:name="G_WP_187429521_1" fbc:label="G_WP_187429521_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429340_1" fbc:name="G_WP_187429340_1" fbc:label="G_WP_187429340_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429762_1" fbc:name="G_WP_187429762_1" fbc:label="G_WP_187429762_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429685_1" fbc:name="G_WP_187429685_1" fbc:label="G_WP_187429685_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430411_1" fbc:name="G_WP_187430411_1" fbc:label="G_WP_187430411_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429687_1" fbc:name="G_WP_187429687_1" fbc:label="G_WP_187429687_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430411_1" fbc:name="G_WP_187430411_1" fbc:label="G_WP_187430411_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429687_1" fbc:name="G_WP_187429687_1" fbc:label="G_WP_187429687_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429685_1" fbc:name="G_WP_187429685_1" fbc:label="G_WP_187429685_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429958_1" fbc:name="G_WP_187429958_1" fbc:label="G_WP_187429958_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431919_1" fbc:name="G_WP_187431919_1" fbc:label="G_WP_187431919_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428415_1" fbc:name="G_WP_187428415_1" fbc:label="G_WP_187428415_1"/>
@@ -63286,6 +63328,7 @@
       <fbc:geneProduct fbc:id="G_WP_187429463_1" fbc:name="G_WP_187429463_1" fbc:label="G_WP_187429463_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430907_1" fbc:name="G_WP_187430907_1" fbc:label="G_WP_187430907_1"/>
       <fbc:geneProduct fbc:id="G_spontaneous" fbc:name="G_spontaneous" fbc:label="G_spontaneous"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428654_1" fbc:name="G_WP_187428654_1" fbc:label="G_WP_187428654_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428783_1" fbc:name="G_WP_187428783_1" fbc:label="G_WP_187428783_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428782_1" fbc:name="G_WP_187428782_1" fbc:label="G_WP_187428782_1"/>
@@ -63301,10 +63344,28 @@
       <fbc:geneProduct fbc:id="G_WP_187431592_1" fbc:name="G_WP_187431592_1" fbc:label="G_WP_187431592_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429307_1" fbc:name="G_WP_187429307_1" fbc:label="G_WP_187429307_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429365_1" fbc:name="G_WP_187429365_1" fbc:label="G_WP_187429365_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428782_1" fbc:name="G_WP_187428782_1" fbc:label="G_WP_187428782_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428164_1" fbc:name="G_WP_187428164_1" fbc:label="G_WP_187428164_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429244_1" fbc:name="G_WP_187429244_1" fbc:label="G_WP_187429244_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429317_1" fbc:name="G_WP_187429317_1" fbc:label="G_WP_187429317_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428654_1" fbc:name="G_WP_187428654_1" fbc:label="G_WP_187428654_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428783_1" fbc:name="G_WP_187428783_1" fbc:label="G_WP_187428783_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429186_1" fbc:name="G_WP_187429186_1" fbc:label="G_WP_187429186_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429094_1" fbc:name="G_WP_187429094_1" fbc:label="G_WP_187429094_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432318_1" fbc:name="G_WP_187432318_1" fbc:label="G_WP_187432318_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431581_1" fbc:name="G_WP_187431581_1" fbc:label="G_WP_187431581_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428433_1" fbc:name="G_WP_187428433_1" fbc:label="G_WP_187428433_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431592_1" fbc:name="G_WP_187431592_1" fbc:label="G_WP_187431592_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429680_1" fbc:name="G_WP_187429680_1" fbc:label="G_WP_187429680_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429365_1" fbc:name="G_WP_187429365_1" fbc:label="G_WP_187429365_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429307_1" fbc:name="G_WP_187429307_1" fbc:label="G_WP_187429307_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431594_1" fbc:name="G_WP_187431594_1" fbc:label="G_WP_187431594_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429741_1" fbc:name="G_WP_187429741_1" fbc:label="G_WP_187429741_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429704_1" fbc:name="G_WP_187429704_1" fbc:label="G_WP_187429704_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429127_1" fbc:name="G_WP_187429127_1" fbc:label="G_WP_187429127_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429085_1" fbc:name="G_WP_187429085_1" fbc:label="G_WP_187429085_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429460_1" fbc:name="G_WP_187429460_1" fbc:label="G_WP_187429460_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432240_1" fbc:name="G_WP_187432240_1" fbc:label="G_WP_187432240_1"/>
@@ -63314,6 +63375,17 @@
       <fbc:geneProduct fbc:id="G_WP_187428706_1" fbc:name="G_WP_187428706_1" fbc:label="G_WP_187428706_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431250_1" fbc:name="G_WP_187431250_1" fbc:label="G_WP_187431250_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428109_1" fbc:name="G_WP_187428109_1" fbc:label="G_WP_187428109_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428513_1" fbc:name="G_WP_187428513_1" fbc:label="G_WP_187428513_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429460_1" fbc:name="G_WP_187429460_1" fbc:label="G_WP_187429460_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432240_1" fbc:name="G_WP_187432240_1" fbc:label="G_WP_187432240_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429028_1" fbc:name="G_WP_187429028_1" fbc:label="G_WP_187429028_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429085_1" fbc:name="G_WP_187429085_1" fbc:label="G_WP_187429085_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429019_1" fbc:name="G_WP_187429019_1" fbc:label="G_WP_187429019_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428706_1" fbc:name="G_WP_187428706_1" fbc:label="G_WP_187428706_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428109_1" fbc:name="G_WP_187428109_1" fbc:label="G_WP_187428109_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431250_1" fbc:name="G_WP_187431250_1" fbc:label="G_WP_187431250_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431691_1" fbc:name="G_WP_187431691_1" fbc:label="G_WP_187431691_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428552_1" fbc:name="G_WP_187428552_1" fbc:label="G_WP_187428552_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429077_1" fbc:name="G_WP_187429077_1" fbc:label="G_WP_187429077_1"/>
@@ -63324,8 +63396,13 @@
       <fbc:geneProduct fbc:id="G_WP_187431856_1" fbc:name="G_WP_187431856_1" fbc:label="G_WP_187431856_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429543_1" fbc:name="G_WP_187429543_1" fbc:label="G_WP_187429543_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429227_1" fbc:name="G_WP_187429227_1" fbc:label="G_WP_187429227_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428982_1" fbc:name="G_WP_187428982_1" fbc:label="G_WP_187428982_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428099_1" fbc:name="G_WP_187428099_1" fbc:label="G_WP_187428099_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428099_1" fbc:name="G_WP_187428099_1" fbc:label="G_WP_187428099_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428982_1" fbc:name="G_WP_187428982_1" fbc:label="G_WP_187428982_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429293_1" fbc:name="G_WP_187429293_1" fbc:label="G_WP_187429293_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429277_1" fbc:name="G_WP_187429277_1" fbc:label="G_WP_187429277_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429924_1" fbc:name="G_WP_187429924_1" fbc:label="G_WP_187429924_1"/>
@@ -63340,8 +63417,13 @@
       <fbc:geneProduct fbc:id="G_WP_187431545_1" fbc:name="G_WP_187431545_1" fbc:label="G_WP_187431545_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431603_1" fbc:name="G_WP_187431603_1" fbc:label="G_WP_187431603_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431685_1" fbc:name="G_WP_187431685_1" fbc:label="G_WP_187431685_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187431000_1" fbc:name="G_WP_187431000_1" fbc:label="G_WP_187431000_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430634_1" fbc:name="G_WP_187430634_1" fbc:label="G_WP_187430634_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430634_1" fbc:name="G_WP_187430634_1" fbc:label="G_WP_187430634_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431000_1" fbc:name="G_WP_187431000_1" fbc:label="G_WP_187431000_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430375_1" fbc:name="G_WP_187430375_1" fbc:label="G_WP_187430375_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430902_1" fbc:name="G_WP_187430902_1" fbc:label="G_WP_187430902_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430760_1" fbc:name="G_WP_187430760_1" fbc:label="G_WP_187430760_1"/>
@@ -63354,6 +63436,7 @@
       <fbc:geneProduct fbc:id="G_WP_187430275_1" fbc:name="G_WP_187430275_1" fbc:label="G_WP_187430275_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431495_1" fbc:name="G_WP_187431495_1" fbc:label="G_WP_187431495_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430276_1" fbc:name="G_WP_187430276_1" fbc:label="G_WP_187430276_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187432267_1" fbc:name="G_WP_187432267_1" fbc:label="G_WP_187432267_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432257_1" fbc:name="G_WP_187432257_1" fbc:label="G_WP_187432257_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431119_1" fbc:name="G_WP_187431119_1" fbc:label="G_WP_187431119_1"/>
@@ -63385,11 +63468,45 @@
       <fbc:geneProduct fbc:id="G_WP_187430976_1" fbc:name="G_WP_187430976_1" fbc:label="G_WP_187430976_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429572_1" fbc:name="G_WP_187429572_1" fbc:label="G_WP_187429572_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432138_1" fbc:name="G_WP_187432138_1" fbc:label="G_WP_187432138_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431119_1" fbc:name="G_WP_187431119_1" fbc:label="G_WP_187431119_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432267_1" fbc:name="G_WP_187432267_1" fbc:label="G_WP_187432267_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431117_1" fbc:name="G_WP_187431117_1" fbc:label="G_WP_187431117_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432268_1" fbc:name="G_WP_187432268_1" fbc:label="G_WP_187432268_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432257_1" fbc:name="G_WP_187432257_1" fbc:label="G_WP_187432257_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431118_1" fbc:name="G_WP_187431118_1" fbc:label="G_WP_187431118_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430303_1" fbc:name="G_WP_187430303_1" fbc:label="G_WP_187430303_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428739_1" fbc:name="G_WP_187428739_1" fbc:label="G_WP_187428739_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428188_1" fbc:name="G_WP_187428188_1" fbc:label="G_WP_187428188_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428169_1" fbc:name="G_WP_187428169_1" fbc:label="G_WP_187428169_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428625_1" fbc:name="G_WP_187428625_1" fbc:label="G_WP_187428625_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431380_1" fbc:name="G_WP_187431380_1" fbc:label="G_WP_187431380_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428170_1" fbc:name="G_WP_187428170_1" fbc:label="G_WP_187428170_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428005_1" fbc:name="G_WP_187428005_1" fbc:label="G_WP_187428005_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431507_1" fbc:name="G_WP_187431507_1" fbc:label="G_WP_187431507_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431506_1" fbc:name="G_WP_187431506_1" fbc:label="G_WP_187431506_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430679_1" fbc:name="G_WP_187430679_1" fbc:label="G_WP_187430679_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430677_1" fbc:name="G_WP_187430677_1" fbc:label="G_WP_187430677_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431518_1" fbc:name="G_WP_187431518_1" fbc:label="G_WP_187431518_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428780_1" fbc:name="G_WP_187428780_1" fbc:label="G_WP_187428780_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430683_1" fbc:name="G_WP_187430683_1" fbc:label="G_WP_187430683_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428777_1" fbc:name="G_WP_187428777_1" fbc:label="G_WP_187428777_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430745_1" fbc:name="G_WP_187430745_1" fbc:label="G_WP_187430745_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429345_1" fbc:name="G_WP_187429345_1" fbc:label="G_WP_187429345_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428778_1" fbc:name="G_WP_187428778_1" fbc:label="G_WP_187428778_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429385_1" fbc:name="G_WP_187429385_1" fbc:label="G_WP_187429385_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430747_1" fbc:name="G_WP_187430747_1" fbc:label="G_WP_187430747_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429342_1" fbc:name="G_WP_187429342_1" fbc:label="G_WP_187429342_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430976_1" fbc:name="G_WP_187430976_1" fbc:label="G_WP_187430976_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432138_1" fbc:name="G_WP_187432138_1" fbc:label="G_WP_187432138_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429572_1" fbc:name="G_WP_187429572_1" fbc:label="G_WP_187429572_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430323_1" fbc:name="G_WP_187430323_1" fbc:label="G_WP_187430323_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430501_1" fbc:name="G_WP_187430501_1" fbc:label="G_WP_187430501_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430077_1" fbc:name="G_WP_187430077_1" fbc:label="G_WP_187430077_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429436_1" fbc:name="G_WP_187429436_1" fbc:label="G_WP_187429436_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429529_1" fbc:name="G_WP_187429529_1" fbc:label="G_WP_187429529_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429727_1" fbc:name="G_WP_187429727_1" fbc:label="G_WP_187429727_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432222_1" fbc:name="G_WP_187432222_1" fbc:label="G_WP_187432222_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431216_1" fbc:name="G_WP_187431216_1" fbc:label="G_WP_187431216_1"/>
@@ -63399,6 +63516,17 @@
       <fbc:geneProduct fbc:id="G_WP_187432262_1" fbc:name="G_WP_187432262_1" fbc:label="G_WP_187432262_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428344_1" fbc:name="G_WP_187428344_1" fbc:label="G_WP_187428344_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431058_1" fbc:name="G_WP_187431058_1" fbc:label="G_WP_187431058_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187432222_1" fbc:name="G_WP_187432222_1" fbc:label="G_WP_187432222_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429727_1" fbc:name="G_WP_187429727_1" fbc:label="G_WP_187429727_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431216_1" fbc:name="G_WP_187431216_1" fbc:label="G_WP_187431216_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431629_1" fbc:name="G_WP_187431629_1" fbc:label="G_WP_187431629_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428245_1" fbc:name="G_WP_187428245_1" fbc:label="G_WP_187428245_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429298_1" fbc:name="G_WP_187429298_1" fbc:label="G_WP_187429298_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432262_1" fbc:name="G_WP_187432262_1" fbc:label="G_WP_187432262_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431058_1" fbc:name="G_WP_187431058_1" fbc:label="G_WP_187431058_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428344_1" fbc:name="G_WP_187428344_1" fbc:label="G_WP_187428344_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429349_1" fbc:name="G_WP_187429349_1" fbc:label="G_WP_187429349_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429855_1" fbc:name="G_WP_187429855_1" fbc:label="G_WP_187429855_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428257_1" fbc:name="G_WP_187428257_1" fbc:label="G_WP_187428257_1"/>
@@ -63415,18 +63543,28 @@
       <fbc:geneProduct fbc:id="G_WP_187429923_1" fbc:name="G_WP_187429923_1" fbc:label="G_WP_187429923_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429926_1" fbc:name="G_WP_187429926_1" fbc:label="G_WP_187429926_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431330_1" fbc:name="G_WP_187431330_1" fbc:label="G_WP_187431330_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429614_1" fbc:name="G_WP_187429614_1" fbc:label="G_WP_187429614_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429672_1" fbc:name="G_WP_187429672_1" fbc:label="G_WP_187429672_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430415_1" fbc:name="G_WP_187430415_1" fbc:label="G_WP_187430415_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428464_1" fbc:name="G_WP_187428464_1" fbc:label="G_WP_187428464_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428221_1" fbc:name="G_WP_187428221_1" fbc:label="G_WP_187428221_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429738_1" fbc:name="G_WP_187429738_1" fbc:label="G_WP_187429738_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429672_1" fbc:name="G_WP_187429672_1" fbc:label="G_WP_187429672_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429614_1" fbc:name="G_WP_187429614_1" fbc:label="G_WP_187429614_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430415_1" fbc:name="G_WP_187430415_1" fbc:label="G_WP_187430415_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428464_1" fbc:name="G_WP_187428464_1" fbc:label="G_WP_187428464_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429738_1" fbc:name="G_WP_187429738_1" fbc:label="G_WP_187429738_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428221_1" fbc:name="G_WP_187428221_1" fbc:label="G_WP_187428221_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429739_1" fbc:name="G_WP_187429739_1" fbc:label="G_WP_187429739_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430510_1" fbc:name="G_WP_187430510_1" fbc:label="G_WP_187430510_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429559_1" fbc:name="G_WP_187429559_1" fbc:label="G_WP_187429559_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430287_1" fbc:name="G_WP_187430287_1" fbc:label="G_WP_187430287_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428460_1" fbc:name="G_WP_187428460_1" fbc:label="G_WP_187428460_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429872_1" fbc:name="G_WP_187429872_1" fbc:label="G_WP_187429872_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429287_1" fbc:name="G_WP_187429287_1" fbc:label="G_WP_187429287_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428179_1" fbc:name="G_WP_187428179_1" fbc:label="G_WP_187428179_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429383_1" fbc:name="G_WP_187429383_1" fbc:label="G_WP_187429383_1"/>
@@ -63438,18 +63576,40 @@
       <fbc:geneProduct fbc:id="G_WP_187429226_1" fbc:name="G_WP_187429226_1" fbc:label="G_WP_187429226_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430247_1" fbc:name="G_WP_187430247_1" fbc:label="G_WP_187430247_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431575_1" fbc:name="G_WP_187431575_1" fbc:label="G_WP_187431575_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430248_1" fbc:name="G_WP_187430248_1" fbc:label="G_WP_187430248_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428179_1" fbc:name="G_WP_187428179_1" fbc:label="G_WP_187428179_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429287_1" fbc:name="G_WP_187429287_1" fbc:label="G_WP_187429287_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430292_1" fbc:name="G_WP_187430292_1" fbc:label="G_WP_187430292_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429383_1" fbc:name="G_WP_187429383_1" fbc:label="G_WP_187429383_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431574_1" fbc:name="G_WP_187431574_1" fbc:label="G_WP_187431574_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431576_1" fbc:name="G_WP_187431576_1" fbc:label="G_WP_187431576_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430247_1" fbc:name="G_WP_187430247_1" fbc:label="G_WP_187430247_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431577_1" fbc:name="G_WP_187431577_1" fbc:label="G_WP_187431577_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431575_1" fbc:name="G_WP_187431575_1" fbc:label="G_WP_187431575_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429226_1" fbc:name="G_WP_187429226_1" fbc:label="G_WP_187429226_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429256_1" fbc:name="G_WP_187429256_1" fbc:label="G_WP_187429256_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429939_1" fbc:name="G_WP_187429939_1" fbc:label="G_WP_187429939_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429339_1" fbc:name="G_WP_187429339_1" fbc:label="G_WP_187429339_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428526_1" fbc:name="G_WP_187428526_1" fbc:label="G_WP_187428526_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431327_1" fbc:name="G_WP_187431327_1" fbc:label="G_WP_187431327_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432317_1" fbc:name="G_WP_187432317_1" fbc:label="G_WP_187432317_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429928_1" fbc:name="G_WP_187429928_1" fbc:label="G_WP_187429928_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428058_1" fbc:name="G_WP_187428058_1" fbc:label="G_WP_187428058_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429300_1" fbc:name="G_WP_187429300_1" fbc:label="G_WP_187429300_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430189_1" fbc:name="G_WP_187430189_1" fbc:label="G_WP_187430189_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430516_1" fbc:name="G_WP_187430516_1" fbc:label="G_WP_187430516_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431604_1" fbc:name="G_WP_187431604_1" fbc:label="G_WP_187431604_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430516_1" fbc:name="G_WP_187430516_1" fbc:label="G_WP_187430516_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431604_1" fbc:name="G_WP_187431604_1" fbc:label="G_WP_187431604_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429928_1" fbc:name="G_WP_187429928_1" fbc:label="G_WP_187429928_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429300_1" fbc:name="G_WP_187429300_1" fbc:label="G_WP_187429300_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428058_1" fbc:name="G_WP_187428058_1" fbc:label="G_WP_187428058_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430189_1" fbc:name="G_WP_187430189_1" fbc:label="G_WP_187430189_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431268_1" fbc:name="G_WP_187431268_1" fbc:label="G_WP_187431268_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431269_1" fbc:name="G_WP_187431269_1" fbc:label="G_WP_187431269_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431266_1" fbc:name="G_WP_187431266_1" fbc:label="G_WP_187431266_1"/>
@@ -63466,12 +63626,18 @@
       <fbc:geneProduct fbc:id="G_WP_187431346_1" fbc:name="G_WP_187431346_1" fbc:label="G_WP_187431346_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429920_1" fbc:name="G_WP_187429920_1" fbc:label="G_WP_187429920_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431314_1" fbc:name="G_WP_187431314_1" fbc:label="G_WP_187431314_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187431312_1" fbc:name="G_WP_187431312_1" fbc:label="G_WP_187431312_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431313_1" fbc:name="G_WP_187431313_1" fbc:label="G_WP_187431313_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431313_1" fbc:name="G_WP_187431313_1" fbc:label="G_WP_187431313_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431312_1" fbc:name="G_WP_187431312_1" fbc:label="G_WP_187431312_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428426_1" fbc:name="G_WP_187428426_1" fbc:label="G_WP_187428426_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428634_1" fbc:name="G_WP_187428634_1" fbc:label="G_WP_187428634_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431942_1" fbc:name="G_WP_187431942_1" fbc:label="G_WP_187431942_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429767_1" fbc:name="G_WP_187429767_1" fbc:label="G_WP_187429767_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428152_1" fbc:name="G_WP_187428152_1" fbc:label="G_WP_187428152_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431235_1" fbc:name="G_WP_187431235_1" fbc:label="G_WP_187431235_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428154_1" fbc:name="G_WP_187428154_1" fbc:label="G_WP_187428154_1"/>
@@ -63493,6 +63659,29 @@
       <fbc:geneProduct fbc:id="G_WP_187432139_1" fbc:name="G_WP_187432139_1" fbc:label="G_WP_187432139_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430096_1" fbc:name="G_WP_187430096_1" fbc:label="G_WP_187430096_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428016_1" fbc:name="G_WP_187428016_1" fbc:label="G_WP_187428016_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428992_1" fbc:name="G_WP_187428992_1" fbc:label="G_WP_187428992_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431235_1" fbc:name="G_WP_187431235_1" fbc:label="G_WP_187431235_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428153_1" fbc:name="G_WP_187428153_1" fbc:label="G_WP_187428153_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430819_1" fbc:name="G_WP_187430819_1" fbc:label="G_WP_187430819_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428152_1" fbc:name="G_WP_187428152_1" fbc:label="G_WP_187428152_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431236_1" fbc:name="G_WP_187431236_1" fbc:label="G_WP_187431236_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428154_1" fbc:name="G_WP_187428154_1" fbc:label="G_WP_187428154_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431597_1" fbc:name="G_WP_187431597_1" fbc:label="G_WP_187431597_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429538_1" fbc:name="G_WP_187429538_1" fbc:label="G_WP_187429538_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428649_1" fbc:name="G_WP_187428649_1" fbc:label="G_WP_187428649_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429931_1" fbc:name="G_WP_187429931_1" fbc:label="G_WP_187429931_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428723_1" fbc:name="G_WP_187428723_1" fbc:label="G_WP_187428723_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431070_1" fbc:name="G_WP_187431070_1" fbc:label="G_WP_187431070_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429022_1" fbc:name="G_WP_187429022_1" fbc:label="G_WP_187429022_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431174_1" fbc:name="G_WP_187431174_1" fbc:label="G_WP_187431174_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429590_1" fbc:name="G_WP_187429590_1" fbc:label="G_WP_187429590_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429054_1" fbc:name="G_WP_187429054_1" fbc:label="G_WP_187429054_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428016_1" fbc:name="G_WP_187428016_1" fbc:label="G_WP_187428016_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432139_1" fbc:name="G_WP_187432139_1" fbc:label="G_WP_187432139_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430096_1" fbc:name="G_WP_187430096_1" fbc:label="G_WP_187430096_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431869_1" fbc:name="G_WP_187431869_1" fbc:label="G_WP_187431869_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187432159_1" fbc:name="G_WP_187432159_1" fbc:label="G_WP_187432159_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430581_1" fbc:name="G_WP_187430581_1" fbc:label="G_WP_187430581_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428627_1" fbc:name="G_WP_187428627_1" fbc:label="G_WP_187428627_1"/>
@@ -63507,13 +63696,20 @@
       <fbc:geneProduct fbc:id="G_WP_187428413_1" fbc:name="G_WP_187428413_1" fbc:label="G_WP_187428413_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430385_1" fbc:name="G_WP_187430385_1" fbc:label="G_WP_187430385_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431763_1" fbc:name="G_WP_187431763_1" fbc:label="G_WP_187431763_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429055_1" fbc:name="G_WP_187429055_1" fbc:label="G_WP_187429055_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428969_1" fbc:name="G_WP_187428969_1" fbc:label="G_WP_187428969_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428968_1" fbc:name="G_WP_187428968_1" fbc:label="G_WP_187428968_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428969_1" fbc:name="G_WP_187428969_1" fbc:label="G_WP_187428969_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428968_1" fbc:name="G_WP_187428968_1" fbc:label="G_WP_187428968_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429055_1" fbc:name="G_WP_187429055_1" fbc:label="G_WP_187429055_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430409_1" fbc:name="G_WP_187430409_1" fbc:label="G_WP_187430409_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430410_1" fbc:name="G_WP_187430410_1" fbc:label="G_WP_187430410_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428766_1" fbc:name="G_WP_187428766_1" fbc:label="G_WP_187428766_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429921_1" fbc:name="G_WP_187429921_1" fbc:label="G_WP_187429921_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430563_1" fbc:name="G_WP_187430563_1" fbc:label="G_WP_187430563_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428469_1" fbc:name="G_WP_187428469_1" fbc:label="G_WP_187428469_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429369_1" fbc:name="G_WP_187429369_1" fbc:label="G_WP_187429369_1"/>
@@ -63543,16 +63739,56 @@
       <fbc:geneProduct fbc:id="G_WP_187428343_1" fbc:name="G_WP_187428343_1" fbc:label="G_WP_187428343_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432213_1" fbc:name="G_WP_187432213_1" fbc:label="G_WP_187432213_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430734_1" fbc:name="G_WP_187430734_1" fbc:label="G_WP_187430734_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429369_1" fbc:name="G_WP_187429369_1" fbc:label="G_WP_187429369_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430563_1" fbc:name="G_WP_187430563_1" fbc:label="G_WP_187430563_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428469_1" fbc:name="G_WP_187428469_1" fbc:label="G_WP_187428469_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430602_1" fbc:name="G_WP_187430602_1" fbc:label="G_WP_187430602_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429129_1" fbc:name="G_WP_187429129_1" fbc:label="G_WP_187429129_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430797_1" fbc:name="G_WP_187430797_1" fbc:label="G_WP_187430797_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430912_1" fbc:name="G_WP_187430912_1" fbc:label="G_WP_187430912_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430798_1" fbc:name="G_WP_187430798_1" fbc:label="G_WP_187430798_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430086_1" fbc:name="G_WP_187430086_1" fbc:label="G_WP_187430086_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429916_1" fbc:name="G_WP_187429916_1" fbc:label="G_WP_187429916_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428852_1" fbc:name="G_WP_187428852_1" fbc:label="G_WP_187428852_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431113_1" fbc:name="G_WP_187431113_1" fbc:label="G_WP_187431113_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431540_1" fbc:name="G_WP_187431540_1" fbc:label="G_WP_187431540_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428560_1" fbc:name="G_WP_187428560_1" fbc:label="G_WP_187428560_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429173_1" fbc:name="G_WP_187429173_1" fbc:label="G_WP_187429173_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428512_1" fbc:name="G_WP_187428512_1" fbc:label="G_WP_187428512_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432381_1" fbc:name="G_WP_187432381_1" fbc:label="G_WP_187432381_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430241_1" fbc:name="G_WP_187430241_1" fbc:label="G_WP_187430241_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429150_1" fbc:name="G_WP_187429150_1" fbc:label="G_WP_187429150_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430572_1" fbc:name="G_WP_187430572_1" fbc:label="G_WP_187430572_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429963_1" fbc:name="G_WP_187429963_1" fbc:label="G_WP_187429963_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430574_1" fbc:name="G_WP_187430574_1" fbc:label="G_WP_187430574_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429961_1" fbc:name="G_WP_187429961_1" fbc:label="G_WP_187429961_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429960_1" fbc:name="G_WP_187429960_1" fbc:label="G_WP_187429960_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430575_1" fbc:name="G_WP_187430575_1" fbc:label="G_WP_187430575_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431178_1" fbc:name="G_WP_187431178_1" fbc:label="G_WP_187431178_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428343_1" fbc:name="G_WP_187428343_1" fbc:label="G_WP_187428343_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430734_1" fbc:name="G_WP_187430734_1" fbc:label="G_WP_187430734_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432213_1" fbc:name="G_WP_187432213_1" fbc:label="G_WP_187432213_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431264_1" fbc:name="G_WP_187431264_1" fbc:label="G_WP_187431264_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430774_1" fbc:name="G_WP_187430774_1" fbc:label="G_WP_187430774_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429048_1" fbc:name="G_WP_187429048_1" fbc:label="G_WP_187429048_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428032_1" fbc:name="G_WP_187428032_1" fbc:label="G_WP_187428032_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428165_1" fbc:name="G_WP_187428165_1" fbc:label="G_WP_187428165_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432092_1" fbc:name="G_WP_187432092_1" fbc:label="G_WP_187432092_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431401_1" fbc:name="G_WP_187431401_1" fbc:label="G_WP_187431401_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429490_1" fbc:name="G_WP_187429490_1" fbc:label="G_WP_187429490_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430059_1" fbc:name="G_WP_187430059_1" fbc:label="G_WP_187430059_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429482_1" fbc:name="G_WP_187429482_1" fbc:label="G_WP_187429482_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187432092_1" fbc:name="G_WP_187432092_1" fbc:label="G_WP_187432092_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428165_1" fbc:name="G_WP_187428165_1" fbc:label="G_WP_187428165_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431401_1" fbc:name="G_WP_187431401_1" fbc:label="G_WP_187431401_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429490_1" fbc:name="G_WP_187429490_1" fbc:label="G_WP_187429490_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429482_1" fbc:name="G_WP_187429482_1" fbc:label="G_WP_187429482_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430059_1" fbc:name="G_WP_187430059_1" fbc:label="G_WP_187430059_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429363_1" fbc:name="G_WP_187429363_1" fbc:label="G_WP_187429363_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431696_1" fbc:name="G_WP_187431696_1" fbc:label="G_WP_187431696_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428684_1" fbc:name="G_WP_187428684_1" fbc:label="G_WP_187428684_1"/>
@@ -63571,6 +63807,7 @@
       <fbc:geneProduct fbc:id="G_WP_187430739_1" fbc:name="G_WP_187430739_1" fbc:label="G_WP_187430739_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428814_1" fbc:name="G_WP_187428814_1" fbc:label="G_WP_187428814_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430736_1" fbc:name="G_WP_187430736_1" fbc:label="G_WP_187430736_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430320_1" fbc:name="G_WP_187430320_1" fbc:label="G_WP_187430320_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431926_1" fbc:name="G_WP_187431926_1" fbc:label="G_WP_187431926_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428553_1" fbc:name="G_WP_187428553_1" fbc:label="G_WP_187428553_1"/>
@@ -63594,6 +63831,31 @@
       <fbc:geneProduct fbc:id="G_WP_187429360_1" fbc:name="G_WP_187429360_1" fbc:label="G_WP_187429360_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431163_1" fbc:name="G_WP_187431163_1" fbc:label="G_WP_187431163_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429318_1" fbc:name="G_WP_187429318_1" fbc:label="G_WP_187429318_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429506_1" fbc:name="G_WP_187429506_1" fbc:label="G_WP_187429506_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431926_1" fbc:name="G_WP_187431926_1" fbc:label="G_WP_187431926_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428553_1" fbc:name="G_WP_187428553_1" fbc:label="G_WP_187428553_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432030_1" fbc:name="G_WP_187432030_1" fbc:label="G_WP_187432030_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430320_1" fbc:name="G_WP_187430320_1" fbc:label="G_WP_187430320_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430355_1" fbc:name="G_WP_187430355_1" fbc:label="G_WP_187430355_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430319_1" fbc:name="G_WP_187430319_1" fbc:label="G_WP_187430319_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430554_1" fbc:name="G_WP_187430554_1" fbc:label="G_WP_187430554_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429314_1" fbc:name="G_WP_187429314_1" fbc:label="G_WP_187429314_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428266_1" fbc:name="G_WP_187428266_1" fbc:label="G_WP_187428266_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428066_1" fbc:name="G_WP_187428066_1" fbc:label="G_WP_187428066_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430313_1" fbc:name="G_WP_187430313_1" fbc:label="G_WP_187430313_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428573_1" fbc:name="G_WP_187428573_1" fbc:label="G_WP_187428573_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430321_1" fbc:name="G_WP_187430321_1" fbc:label="G_WP_187430321_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430322_1" fbc:name="G_WP_187430322_1" fbc:label="G_WP_187430322_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430564_1" fbc:name="G_WP_187430564_1" fbc:label="G_WP_187430564_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430505_1" fbc:name="G_WP_187430505_1" fbc:label="G_WP_187430505_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428236_1" fbc:name="G_WP_187428236_1" fbc:label="G_WP_187428236_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429360_1" fbc:name="G_WP_187429360_1" fbc:label="G_WP_187429360_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429806_1" fbc:name="G_WP_187429806_1" fbc:label="G_WP_187429806_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429804_1" fbc:name="G_WP_187429804_1" fbc:label="G_WP_187429804_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429318_1" fbc:name="G_WP_187429318_1" fbc:label="G_WP_187429318_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431163_1" fbc:name="G_WP_187431163_1" fbc:label="G_WP_187431163_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430027_1" fbc:name="G_WP_187430027_1" fbc:label="G_WP_187430027_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430003_1" fbc:name="G_WP_187430003_1" fbc:label="G_WP_187430003_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431162_1" fbc:name="G_WP_187431162_1" fbc:label="G_WP_187431162_1"/>
@@ -63604,6 +63866,7 @@
       <fbc:geneProduct fbc:id="G_WP_187429165_1" fbc:name="G_WP_187429165_1" fbc:label="G_WP_187429165_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430068_1" fbc:name="G_WP_187430068_1" fbc:label="G_WP_187430068_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430756_1" fbc:name="G_WP_187430756_1" fbc:label="G_WP_187430756_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187432260_1" fbc:name="G_WP_187432260_1" fbc:label="G_WP_187432260_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430550_1" fbc:name="G_WP_187430550_1" fbc:label="G_WP_187430550_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429133_1" fbc:name="G_WP_187429133_1" fbc:label="G_WP_187429133_1"/>
@@ -63615,6 +63878,19 @@
       <fbc:geneProduct fbc:id="G_WP_187430601_1" fbc:name="G_WP_187430601_1" fbc:label="G_WP_187430601_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428579_1" fbc:name="G_WP_187428579_1" fbc:label="G_WP_187428579_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429350_1" fbc:name="G_WP_187429350_1" fbc:label="G_WP_187429350_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430550_1" fbc:name="G_WP_187430550_1" fbc:label="G_WP_187430550_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432260_1" fbc:name="G_WP_187432260_1" fbc:label="G_WP_187432260_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429528_1" fbc:name="G_WP_187429528_1" fbc:label="G_WP_187429528_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432160_1" fbc:name="G_WP_187432160_1" fbc:label="G_WP_187432160_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429133_1" fbc:name="G_WP_187429133_1" fbc:label="G_WP_187429133_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429415_1" fbc:name="G_WP_187429415_1" fbc:label="G_WP_187429415_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429070_1" fbc:name="G_WP_187429070_1" fbc:label="G_WP_187429070_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431923_1" fbc:name="G_WP_187431923_1" fbc:label="G_WP_187431923_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428579_1" fbc:name="G_WP_187428579_1" fbc:label="G_WP_187428579_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429350_1" fbc:name="G_WP_187429350_1" fbc:label="G_WP_187429350_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430601_1" fbc:name="G_WP_187430601_1" fbc:label="G_WP_187430601_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428456_1" fbc:name="G_WP_187428456_1" fbc:label="G_WP_187428456_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428434_1" fbc:name="G_WP_187428434_1" fbc:label="G_WP_187428434_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428477_1" fbc:name="G_WP_187428477_1" fbc:label="G_WP_187428477_1"/>
@@ -63623,13 +63899,19 @@
       <fbc:geneProduct fbc:id="G_WP_187429708_1" fbc:name="G_WP_187429708_1" fbc:label="G_WP_187429708_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431166_1" fbc:name="G_WP_187431166_1" fbc:label="G_WP_187431166_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432245_1" fbc:name="G_WP_187432245_1" fbc:label="G_WP_187432245_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187431207_1" fbc:name="G_WP_187431207_1" fbc:label="G_WP_187431207_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431205_1" fbc:name="G_WP_187431205_1" fbc:label="G_WP_187431205_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431205_1" fbc:name="G_WP_187431205_1" fbc:label="G_WP_187431205_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431207_1" fbc:name="G_WP_187431207_1" fbc:label="G_WP_187431207_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428357_1" fbc:name="G_WP_187428357_1" fbc:label="G_WP_187428357_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429722_1" fbc:name="G_WP_187429722_1" fbc:label="G_WP_187429722_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428986_1" fbc:name="G_WP_187428986_1" fbc:label="G_WP_187428986_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428985_1" fbc:name="G_WP_187428985_1" fbc:label="G_WP_187428985_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429017_1" fbc:name="G_WP_187429017_1" fbc:label="G_WP_187429017_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430497_1" fbc:name="G_WP_187430497_1" fbc:label="G_WP_187430497_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429489_1" fbc:name="G_WP_187429489_1" fbc:label="G_WP_187429489_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429033_1" fbc:name="G_WP_187429033_1" fbc:label="G_WP_187429033_1"/>
@@ -63644,10 +63926,27 @@
       <fbc:geneProduct fbc:id="G_WP_187428833_1" fbc:name="G_WP_187428833_1" fbc:label="G_WP_187428833_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431628_1" fbc:name="G_WP_187431628_1" fbc:label="G_WP_187431628_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428834_1" fbc:name="G_WP_187428834_1" fbc:label="G_WP_187428834_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429489_1" fbc:name="G_WP_187429489_1" fbc:label="G_WP_187429489_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430497_1" fbc:name="G_WP_187430497_1" fbc:label="G_WP_187430497_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429033_1" fbc:name="G_WP_187429033_1" fbc:label="G_WP_187429033_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430056_1" fbc:name="G_WP_187430056_1" fbc:label="G_WP_187430056_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429536_1" fbc:name="G_WP_187429536_1" fbc:label="G_WP_187429536_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429132_1" fbc:name="G_WP_187429132_1" fbc:label="G_WP_187429132_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428819_1" fbc:name="G_WP_187428819_1" fbc:label="G_WP_187428819_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431500_1" fbc:name="G_WP_187431500_1" fbc:label="G_WP_187431500_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428835_1" fbc:name="G_WP_187428835_1" fbc:label="G_WP_187428835_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432239_1" fbc:name="G_WP_187432239_1" fbc:label="G_WP_187432239_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431715_1" fbc:name="G_WP_187431715_1" fbc:label="G_WP_187431715_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428833_1" fbc:name="G_WP_187428833_1" fbc:label="G_WP_187428833_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428834_1" fbc:name="G_WP_187428834_1" fbc:label="G_WP_187428834_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431628_1" fbc:name="G_WP_187431628_1" fbc:label="G_WP_187431628_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428176_1" fbc:name="G_WP_187428176_1" fbc:label="G_WP_187428176_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430364_1" fbc:name="G_WP_187430364_1" fbc:label="G_WP_187430364_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430950_1" fbc:name="G_WP_187430950_1" fbc:label="G_WP_187430950_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430438_1" fbc:name="G_WP_187430438_1" fbc:label="G_WP_187430438_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430630_1" fbc:name="G_WP_187430630_1" fbc:label="G_WP_187430630_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429709_1" fbc:name="G_WP_187429709_1" fbc:label="G_WP_187429709_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430724_1" fbc:name="G_WP_187430724_1" fbc:label="G_WP_187430724_1"/>
@@ -63665,6 +63964,25 @@
       <fbc:geneProduct fbc:id="G_WP_187428446_1" fbc:name="G_WP_187428446_1" fbc:label="G_WP_187428446_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428279_1" fbc:name="G_WP_187428279_1" fbc:label="G_WP_187428279_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428871_1" fbc:name="G_WP_187428871_1" fbc:label="G_WP_187428871_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187432227_1" fbc:name="G_WP_187432227_1" fbc:label="G_WP_187432227_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430630_1" fbc:name="G_WP_187430630_1" fbc:label="G_WP_187430630_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430724_1" fbc:name="G_WP_187430724_1" fbc:label="G_WP_187430724_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429709_1" fbc:name="G_WP_187429709_1" fbc:label="G_WP_187429709_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431547_1" fbc:name="G_WP_187431547_1" fbc:label="G_WP_187431547_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428866_1" fbc:name="G_WP_187428866_1" fbc:label="G_WP_187428866_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429465_1" fbc:name="G_WP_187429465_1" fbc:label="G_WP_187429465_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430865_1" fbc:name="G_WP_187430865_1" fbc:label="G_WP_187430865_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430092_1" fbc:name="G_WP_187430092_1" fbc:label="G_WP_187430092_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428621_1" fbc:name="G_WP_187428621_1" fbc:label="G_WP_187428621_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429879_1" fbc:name="G_WP_187429879_1" fbc:label="G_WP_187429879_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430357_1" fbc:name="G_WP_187430357_1" fbc:label="G_WP_187430357_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429778_1" fbc:name="G_WP_187429778_1" fbc:label="G_WP_187429778_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430324_1" fbc:name="G_WP_187430324_1" fbc:label="G_WP_187430324_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428446_1" fbc:name="G_WP_187428446_1" fbc:label="G_WP_187428446_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428871_1" fbc:name="G_WP_187428871_1" fbc:label="G_WP_187428871_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428279_1" fbc:name="G_WP_187428279_1" fbc:label="G_WP_187428279_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429362_1" fbc:name="G_WP_187429362_1" fbc:label="G_WP_187429362_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428873_1" fbc:name="G_WP_187428873_1" fbc:label="G_WP_187428873_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429854_1" fbc:name="G_WP_187429854_1" fbc:label="G_WP_187429854_1"/>
@@ -63675,20 +63993,33 @@
       <fbc:geneProduct fbc:id="G_WP_187429868_1" fbc:name="G_WP_187429868_1" fbc:label="G_WP_187429868_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431845_1" fbc:name="G_WP_187431845_1" fbc:label="G_WP_187431845_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430766_1" fbc:name="G_WP_187430766_1" fbc:label="G_WP_187430766_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429993_1" fbc:name="G_WP_187429993_1" fbc:label="G_WP_187429993_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429994_1" fbc:name="G_WP_187429994_1" fbc:label="G_WP_187429994_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429820_1" fbc:name="G_WP_187429820_1" fbc:label="G_WP_187429820_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429895_1" fbc:name="G_WP_187429895_1" fbc:label="G_WP_187429895_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429994_1" fbc:name="G_WP_187429994_1" fbc:label="G_WP_187429994_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429993_1" fbc:name="G_WP_187429993_1" fbc:label="G_WP_187429993_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429895_1" fbc:name="G_WP_187429895_1" fbc:label="G_WP_187429895_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429820_1" fbc:name="G_WP_187429820_1" fbc:label="G_WP_187429820_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429819_1" fbc:name="G_WP_187429819_1" fbc:label="G_WP_187429819_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428367_1" fbc:name="G_WP_187428367_1" fbc:label="G_WP_187428367_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428954_1" fbc:name="G_WP_187428954_1" fbc:label="G_WP_187428954_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429355_1" fbc:name="G_WP_187429355_1" fbc:label="G_WP_187429355_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429429_1" fbc:name="G_WP_187429429_1" fbc:label="G_WP_187429429_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430413_1" fbc:name="G_WP_187430413_1" fbc:label="G_WP_187430413_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430413_1" fbc:name="G_WP_187430413_1" fbc:label="G_WP_187430413_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429429_1" fbc:name="G_WP_187429429_1" fbc:label="G_WP_187429429_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428296_1" fbc:name="G_WP_187428296_1" fbc:label="G_WP_187428296_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428558_1" fbc:name="G_WP_187428558_1" fbc:label="G_WP_187428558_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430552_1" fbc:name="G_WP_187430552_1" fbc:label="G_WP_187430552_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429162_1" fbc:name="G_WP_187429162_1" fbc:label="G_WP_187429162_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187431335_1" fbc:name="G_WP_187431335_1" fbc:label="G_WP_187431335_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428210_1" fbc:name="G_WP_187428210_1" fbc:label="G_WP_187428210_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430885_1" fbc:name="G_WP_187430885_1" fbc:label="G_WP_187430885_1"/>
@@ -63696,14 +64027,29 @@
       <fbc:geneProduct fbc:id="G_WP_187431787_1" fbc:name="G_WP_187431787_1" fbc:label="G_WP_187431787_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429837_1" fbc:name="G_WP_187429837_1" fbc:label="G_WP_187429837_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429172_1" fbc:name="G_WP_187429172_1" fbc:label="G_WP_187429172_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430885_1" fbc:name="G_WP_187430885_1" fbc:label="G_WP_187430885_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431335_1" fbc:name="G_WP_187431335_1" fbc:label="G_WP_187431335_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428210_1" fbc:name="G_WP_187428210_1" fbc:label="G_WP_187428210_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431787_1" fbc:name="G_WP_187431787_1" fbc:label="G_WP_187431787_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429558_1" fbc:name="G_WP_187429558_1" fbc:label="G_WP_187429558_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429172_1" fbc:name="G_WP_187429172_1" fbc:label="G_WP_187429172_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429837_1" fbc:name="G_WP_187429837_1" fbc:label="G_WP_187429837_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430486_1" fbc:name="G_WP_187430486_1" fbc:label="G_WP_187430486_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428901_1" fbc:name="G_WP_187428901_1" fbc:label="G_WP_187428901_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428898_1" fbc:name="G_WP_187428898_1" fbc:label="G_WP_187428898_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428411_1" fbc:name="G_WP_187428411_1" fbc:label="G_WP_187428411_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429986_1" fbc:name="G_WP_187429986_1" fbc:label="G_WP_187429986_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428896_1" fbc:name="G_WP_187428896_1" fbc:label="G_WP_187428896_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428895_1" fbc:name="G_WP_187428895_1" fbc:label="G_WP_187428895_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430089_1" fbc:name="G_WP_187430089_1" fbc:label="G_WP_187430089_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428895_1" fbc:name="G_WP_187428895_1" fbc:label="G_WP_187428895_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430089_1" fbc:name="G_WP_187430089_1" fbc:label="G_WP_187430089_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428896_1" fbc:name="G_WP_187428896_1" fbc:label="G_WP_187428896_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429249_1" fbc:name="G_WP_187429249_1" fbc:label="G_WP_187429249_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431515_1" fbc:name="G_WP_187431515_1" fbc:label="G_WP_187431515_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428697_1" fbc:name="G_WP_187428697_1" fbc:label="G_WP_187428697_1"/>
@@ -63711,6 +64057,7 @@
       <fbc:geneProduct fbc:id="G_WP_187432372_1" fbc:name="G_WP_187432372_1" fbc:label="G_WP_187432372_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430500_1" fbc:name="G_WP_187430500_1" fbc:label="G_WP_187430500_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430923_1" fbc:name="G_WP_187430923_1" fbc:label="G_WP_187430923_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429880_1" fbc:name="G_WP_187429880_1" fbc:label="G_WP_187429880_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430309_1" fbc:name="G_WP_187430309_1" fbc:label="G_WP_187430309_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429943_1" fbc:name="G_WP_187429943_1" fbc:label="G_WP_187429943_1"/>
@@ -63719,6 +64066,16 @@
       <fbc:geneProduct fbc:id="G_WP_187428846_1" fbc:name="G_WP_187428846_1" fbc:label="G_WP_187428846_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428504_1" fbc:name="G_WP_187428504_1" fbc:label="G_WP_187428504_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430362_1" fbc:name="G_WP_187430362_1" fbc:label="G_WP_187430362_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429881_1" fbc:name="G_WP_187429881_1" fbc:label="G_WP_187429881_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429943_1" fbc:name="G_WP_187429943_1" fbc:label="G_WP_187429943_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430309_1" fbc:name="G_WP_187430309_1" fbc:label="G_WP_187430309_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429880_1" fbc:name="G_WP_187429880_1" fbc:label="G_WP_187429880_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429882_1" fbc:name="G_WP_187429882_1" fbc:label="G_WP_187429882_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428846_1" fbc:name="G_WP_187428846_1" fbc:label="G_WP_187428846_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430362_1" fbc:name="G_WP_187430362_1" fbc:label="G_WP_187430362_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428504_1" fbc:name="G_WP_187428504_1" fbc:label="G_WP_187428504_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430764_1" fbc:name="G_WP_187430764_1" fbc:label="G_WP_187430764_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430627_1" fbc:name="G_WP_187430627_1" fbc:label="G_WP_187430627_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430660_1" fbc:name="G_WP_187430660_1" fbc:label="G_WP_187430660_1"/>
@@ -63730,6 +64087,7 @@
       <fbc:geneProduct fbc:id="G_WP_187428811_1" fbc:name="G_WP_187428811_1" fbc:label="G_WP_187428811_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428424_1" fbc:name="G_WP_187428424_1" fbc:label="G_WP_187428424_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428567_1" fbc:name="G_WP_187428567_1" fbc:label="G_WP_187428567_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430328_1" fbc:name="G_WP_187430328_1" fbc:label="G_WP_187430328_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428836_1" fbc:name="G_WP_187428836_1" fbc:label="G_WP_187428836_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431808_1" fbc:name="G_WP_187431808_1" fbc:label="G_WP_187431808_1"/>
@@ -63740,6 +64098,18 @@
       <fbc:geneProduct fbc:id="G_WP_187430817_1" fbc:name="G_WP_187430817_1" fbc:label="G_WP_187430817_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428212_1" fbc:name="G_WP_187428212_1" fbc:label="G_WP_187428212_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430808_1" fbc:name="G_WP_187430808_1" fbc:label="G_WP_187430808_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431808_1" fbc:name="G_WP_187431808_1" fbc:label="G_WP_187431808_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431111_1" fbc:name="G_WP_187431111_1" fbc:label="G_WP_187431111_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428836_1" fbc:name="G_WP_187428836_1" fbc:label="G_WP_187428836_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430328_1" fbc:name="G_WP_187430328_1" fbc:label="G_WP_187430328_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429665_1" fbc:name="G_WP_187429665_1" fbc:label="G_WP_187429665_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429664_1" fbc:name="G_WP_187429664_1" fbc:label="G_WP_187429664_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430111_1" fbc:name="G_WP_187430111_1" fbc:label="G_WP_187430111_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430808_1" fbc:name="G_WP_187430808_1" fbc:label="G_WP_187430808_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428212_1" fbc:name="G_WP_187428212_1" fbc:label="G_WP_187428212_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430817_1" fbc:name="G_WP_187430817_1" fbc:label="G_WP_187430817_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429073_1" fbc:name="G_WP_187429073_1" fbc:label="G_WP_187429073_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428698_1" fbc:name="G_WP_187428698_1" fbc:label="G_WP_187428698_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429744_1" fbc:name="G_WP_187429744_1" fbc:label="G_WP_187429744_1"/>
@@ -63753,6 +64123,7 @@
       <fbc:geneProduct fbc:id="G_WP_187430741_1" fbc:name="G_WP_187430741_1" fbc:label="G_WP_187430741_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430273_1" fbc:name="G_WP_187430273_1" fbc:label="G_WP_187430273_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428831_1" fbc:name="G_WP_187428831_1" fbc:label="G_WP_187428831_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428828_1" fbc:name="G_WP_187428828_1" fbc:label="G_WP_187428828_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431986_1" fbc:name="G_WP_187431986_1" fbc:label="G_WP_187431986_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432217_1" fbc:name="G_WP_187432217_1" fbc:label="G_WP_187432217_1"/>
@@ -63760,6 +64131,15 @@
       <fbc:geneProduct fbc:id="G_WP_187429447_1" fbc:name="G_WP_187429447_1" fbc:label="G_WP_187429447_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428810_1" fbc:name="G_WP_187428810_1" fbc:label="G_WP_187428810_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428911_1" fbc:name="G_WP_187428911_1" fbc:label="G_WP_187428911_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431986_1" fbc:name="G_WP_187431986_1" fbc:label="G_WP_187431986_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428828_1" fbc:name="G_WP_187428828_1" fbc:label="G_WP_187428828_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432215_1" fbc:name="G_WP_187432215_1" fbc:label="G_WP_187432215_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432217_1" fbc:name="G_WP_187432217_1" fbc:label="G_WP_187432217_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428911_1" fbc:name="G_WP_187428911_1" fbc:label="G_WP_187428911_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429447_1" fbc:name="G_WP_187429447_1" fbc:label="G_WP_187429447_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428810_1" fbc:name="G_WP_187428810_1" fbc:label="G_WP_187428810_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428827_1" fbc:name="G_WP_187428827_1" fbc:label="G_WP_187428827_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428829_1" fbc:name="G_WP_187428829_1" fbc:label="G_WP_187428829_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429114_1" fbc:name="G_WP_187429114_1" fbc:label="G_WP_187429114_1"/>
@@ -63768,6 +64148,7 @@
       <fbc:geneProduct fbc:id="G_WP_187431262_1" fbc:name="G_WP_187431262_1" fbc:label="G_WP_187431262_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428177_1" fbc:name="G_WP_187428177_1" fbc:label="G_WP_187428177_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430765_1" fbc:name="G_WP_187430765_1" fbc:label="G_WP_187430765_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429681_1" fbc:name="G_WP_187429681_1" fbc:label="G_WP_187429681_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429670_1" fbc:name="G_WP_187429670_1" fbc:label="G_WP_187429670_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430810_1" fbc:name="G_WP_187430810_1" fbc:label="G_WP_187430810_1"/>
@@ -63777,6 +64158,17 @@
       <fbc:geneProduct fbc:id="G_WP_187428889_1" fbc:name="G_WP_187428889_1" fbc:label="G_WP_187428889_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430812_1" fbc:name="G_WP_187430812_1" fbc:label="G_WP_187430812_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429111_1" fbc:name="G_WP_187429111_1" fbc:label="G_WP_187429111_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429670_1" fbc:name="G_WP_187429670_1" fbc:label="G_WP_187429670_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429681_1" fbc:name="G_WP_187429681_1" fbc:label="G_WP_187429681_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430810_1" fbc:name="G_WP_187430810_1" fbc:label="G_WP_187430810_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428759_1" fbc:name="G_WP_187428759_1" fbc:label="G_WP_187428759_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429908_1" fbc:name="G_WP_187429908_1" fbc:label="G_WP_187429908_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428889_1" fbc:name="G_WP_187428889_1" fbc:label="G_WP_187428889_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429557_1" fbc:name="G_WP_187429557_1" fbc:label="G_WP_187429557_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429111_1" fbc:name="G_WP_187429111_1" fbc:label="G_WP_187429111_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430812_1" fbc:name="G_WP_187430812_1" fbc:label="G_WP_187430812_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429450_1" fbc:name="G_WP_187429450_1" fbc:label="G_WP_187429450_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429917_1" fbc:name="G_WP_187429917_1" fbc:label="G_WP_187429917_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428976_1" fbc:name="G_WP_187428976_1" fbc:label="G_WP_187428976_1"/>
@@ -63785,6 +64177,7 @@
       <fbc:geneProduct fbc:id="G_WP_187428861_1" fbc:name="G_WP_187428861_1" fbc:label="G_WP_187428861_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428034_1" fbc:name="G_WP_187428034_1" fbc:label="G_WP_187428034_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431710_1" fbc:name="G_WP_187431710_1" fbc:label="G_WP_187431710_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430397_1" fbc:name="G_WP_187430397_1" fbc:label="G_WP_187430397_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432136_1" fbc:name="G_WP_187432136_1" fbc:label="G_WP_187432136_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430398_1" fbc:name="G_WP_187430398_1" fbc:label="G_WP_187430398_1"/>
@@ -63799,14 +64192,37 @@
       <fbc:geneProduct fbc:id="G_WP_187431530_1" fbc:name="G_WP_187431530_1" fbc:label="G_WP_187431530_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428978_1" fbc:name="G_WP_187428978_1" fbc:label="G_WP_187428978_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428980_1" fbc:name="G_WP_187428980_1" fbc:label="G_WP_187428980_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430399_1" fbc:name="G_WP_187430399_1" fbc:label="G_WP_187430399_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430398_1" fbc:name="G_WP_187430398_1" fbc:label="G_WP_187430398_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432136_1" fbc:name="G_WP_187432136_1" fbc:label="G_WP_187432136_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430397_1" fbc:name="G_WP_187430397_1" fbc:label="G_WP_187430397_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428808_1" fbc:name="G_WP_187428808_1" fbc:label="G_WP_187428808_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431650_1" fbc:name="G_WP_187431650_1" fbc:label="G_WP_187431650_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431649_1" fbc:name="G_WP_187431649_1" fbc:label="G_WP_187431649_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429448_1" fbc:name="G_WP_187429448_1" fbc:label="G_WP_187429448_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429878_1" fbc:name="G_WP_187429878_1" fbc:label="G_WP_187429878_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428918_1" fbc:name="G_WP_187428918_1" fbc:label="G_WP_187428918_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429876_1" fbc:name="G_WP_187429876_1" fbc:label="G_WP_187429876_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431530_1" fbc:name="G_WP_187431530_1" fbc:label="G_WP_187431530_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428980_1" fbc:name="G_WP_187428980_1" fbc:label="G_WP_187428980_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428978_1" fbc:name="G_WP_187428978_1" fbc:label="G_WP_187428978_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428979_1" fbc:name="G_WP_187428979_1" fbc:label="G_WP_187428979_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428268_1" fbc:name="G_WP_187428268_1" fbc:label="G_WP_187428268_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428958_1" fbc:name="G_WP_187428958_1" fbc:label="G_WP_187428958_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428025_1" fbc:name="G_WP_187428025_1" fbc:label="G_WP_187428025_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429178_1" fbc:name="G_WP_187429178_1" fbc:label="G_WP_187429178_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428851_1" fbc:name="G_WP_187428851_1" fbc:label="G_WP_187428851_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428027_1" fbc:name="G_WP_187428027_1" fbc:label="G_WP_187428027_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428026_1" fbc:name="G_WP_187428026_1" fbc:label="G_WP_187428026_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428027_1" fbc:name="G_WP_187428027_1" fbc:label="G_WP_187428027_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429178_1" fbc:name="G_WP_187429178_1" fbc:label="G_WP_187429178_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428026_1" fbc:name="G_WP_187428026_1" fbc:label="G_WP_187428026_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428851_1" fbc:name="G_WP_187428851_1" fbc:label="G_WP_187428851_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428839_1" fbc:name="G_WP_187428839_1" fbc:label="G_WP_187428839_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429864_1" fbc:name="G_WP_187429864_1" fbc:label="G_WP_187429864_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431842_1" fbc:name="G_WP_187431842_1" fbc:label="G_WP_187431842_1"/>
@@ -63824,6 +64240,7 @@
       <fbc:geneProduct fbc:id="G_WP_187430228_1" fbc:name="G_WP_187430228_1" fbc:label="G_WP_187430228_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429119_1" fbc:name="G_WP_187429119_1" fbc:label="G_WP_187429119_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432328_1" fbc:name="G_WP_187432328_1" fbc:label="G_WP_187432328_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187432265_1" fbc:name="G_WP_187432265_1" fbc:label="G_WP_187432265_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432266_1" fbc:name="G_WP_187432266_1" fbc:label="G_WP_187432266_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429545_1" fbc:name="G_WP_187429545_1" fbc:label="G_WP_187429545_1"/>
@@ -63836,6 +64253,20 @@
       <fbc:geneProduct fbc:id="G_WP_187430883_1" fbc:name="G_WP_187430883_1" fbc:label="G_WP_187430883_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431879_1" fbc:name="G_WP_187431879_1" fbc:label="G_WP_187431879_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429929_1" fbc:name="G_WP_187429929_1" fbc:label="G_WP_187429929_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187432266_1" fbc:name="G_WP_187432266_1" fbc:label="G_WP_187432266_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432265_1" fbc:name="G_WP_187432265_1" fbc:label="G_WP_187432265_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429545_1" fbc:name="G_WP_187429545_1" fbc:label="G_WP_187429545_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428707_1" fbc:name="G_WP_187428707_1" fbc:label="G_WP_187428707_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428950_1" fbc:name="G_WP_187428950_1" fbc:label="G_WP_187428950_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432274_1" fbc:name="G_WP_187432274_1" fbc:label="G_WP_187432274_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431108_1" fbc:name="G_WP_187431108_1" fbc:label="G_WP_187431108_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431154_1" fbc:name="G_WP_187431154_1" fbc:label="G_WP_187431154_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430981_1" fbc:name="G_WP_187430981_1" fbc:label="G_WP_187430981_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430883_1" fbc:name="G_WP_187430883_1" fbc:label="G_WP_187430883_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429929_1" fbc:name="G_WP_187429929_1" fbc:label="G_WP_187429929_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431879_1" fbc:name="G_WP_187431879_1" fbc:label="G_WP_187431879_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430376_1" fbc:name="G_WP_187430376_1" fbc:label="G_WP_187430376_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428607_1" fbc:name="G_WP_187428607_1" fbc:label="G_WP_187428607_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430218_1" fbc:name="G_WP_187430218_1" fbc:label="G_WP_187430218_1"/>
@@ -63851,24 +64282,37 @@
       <fbc:geneProduct fbc:id="G_WP_187430836_1" fbc:name="G_WP_187430836_1" fbc:label="G_WP_187430836_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428211_1" fbc:name="G_WP_187428211_1" fbc:label="G_WP_187428211_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429962_1" fbc:name="G_WP_187429962_1" fbc:label="G_WP_187429962_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187432293_1" fbc:name="G_WP_187432293_1" fbc:label="G_WP_187432293_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428817_1" fbc:name="G_WP_187428817_1" fbc:label="G_WP_187428817_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428916_1" fbc:name="G_WP_187428916_1" fbc:label="G_WP_187428916_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428823_1" fbc:name="G_WP_187428823_1" fbc:label="G_WP_187428823_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428817_1" fbc:name="G_WP_187428817_1" fbc:label="G_WP_187428817_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428823_1" fbc:name="G_WP_187428823_1" fbc:label="G_WP_187428823_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428916_1" fbc:name="G_WP_187428916_1" fbc:label="G_WP_187428916_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432293_1" fbc:name="G_WP_187432293_1" fbc:label="G_WP_187432293_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428832_1" fbc:name="G_WP_187428832_1" fbc:label="G_WP_187428832_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429248_1" fbc:name="G_WP_187429248_1" fbc:label="G_WP_187429248_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428324_1" fbc:name="G_WP_187428324_1" fbc:label="G_WP_187428324_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428267_1" fbc:name="G_WP_187428267_1" fbc:label="G_WP_187428267_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429659_1" fbc:name="G_WP_187429659_1" fbc:label="G_WP_187429659_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429795_1" fbc:name="G_WP_187429795_1" fbc:label="G_WP_187429795_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429443_1" fbc:name="G_WP_187429443_1" fbc:label="G_WP_187429443_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430448_1" fbc:name="G_WP_187430448_1" fbc:label="G_WP_187430448_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430448_1" fbc:name="G_WP_187430448_1" fbc:label="G_WP_187430448_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429443_1" fbc:name="G_WP_187429443_1" fbc:label="G_WP_187429443_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431824_1" fbc:name="G_WP_187431824_1" fbc:label="G_WP_187431824_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430562_1" fbc:name="G_WP_187430562_1" fbc:label="G_WP_187430562_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428692_1" fbc:name="G_WP_187428692_1" fbc:label="G_WP_187428692_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430605_1" fbc:name="G_WP_187430605_1" fbc:label="G_WP_187430605_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428586_1" fbc:name="G_WP_187428586_1" fbc:label="G_WP_187428586_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431707_1" fbc:name="G_WP_187431707_1" fbc:label="G_WP_187431707_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187432275_1" fbc:name="G_WP_187432275_1" fbc:label="G_WP_187432275_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431501_1" fbc:name="G_WP_187431501_1" fbc:label="G_WP_187431501_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428620_1" fbc:name="G_WP_187428620_1" fbc:label="G_WP_187428620_1"/>
@@ -63879,6 +64323,18 @@
       <fbc:geneProduct fbc:id="G_WP_187431618_1" fbc:name="G_WP_187431618_1" fbc:label="G_WP_187431618_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430407_1" fbc:name="G_WP_187430407_1" fbc:label="G_WP_187430407_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431806_1" fbc:name="G_WP_187431806_1" fbc:label="G_WP_187431806_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431501_1" fbc:name="G_WP_187431501_1" fbc:label="G_WP_187431501_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432275_1" fbc:name="G_WP_187432275_1" fbc:label="G_WP_187432275_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428620_1" fbc:name="G_WP_187428620_1" fbc:label="G_WP_187428620_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432094_1" fbc:name="G_WP_187432094_1" fbc:label="G_WP_187432094_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428997_1" fbc:name="G_WP_187428997_1" fbc:label="G_WP_187428997_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431805_1" fbc:name="G_WP_187431805_1" fbc:label="G_WP_187431805_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431616_1" fbc:name="G_WP_187431616_1" fbc:label="G_WP_187431616_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431806_1" fbc:name="G_WP_187431806_1" fbc:label="G_WP_187431806_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430407_1" fbc:name="G_WP_187430407_1" fbc:label="G_WP_187430407_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431618_1" fbc:name="G_WP_187431618_1" fbc:label="G_WP_187431618_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431654_1" fbc:name="G_WP_187431654_1" fbc:label="G_WP_187431654_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430649_1" fbc:name="G_WP_187430649_1" fbc:label="G_WP_187430649_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430426_1" fbc:name="G_WP_187430426_1" fbc:label="G_WP_187430426_1"/>
@@ -63890,6 +64346,7 @@
       <fbc:geneProduct fbc:id="G_WP_187432013_1" fbc:name="G_WP_187432013_1" fbc:label="G_WP_187432013_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432010_1" fbc:name="G_WP_187432010_1" fbc:label="G_WP_187432010_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429922_1" fbc:name="G_WP_187429922_1" fbc:label="G_WP_187429922_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187432103_1" fbc:name="G_WP_187432103_1" fbc:label="G_WP_187432103_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429137_1" fbc:name="G_WP_187429137_1" fbc:label="G_WP_187429137_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428779_1" fbc:name="G_WP_187428779_1" fbc:label="G_WP_187428779_1"/>
@@ -63911,6 +64368,29 @@
       <fbc:geneProduct fbc:id="G_WP_187428021_1" fbc:name="G_WP_187428021_1" fbc:label="G_WP_187428021_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432208_1" fbc:name="G_WP_187432208_1" fbc:label="G_WP_187432208_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428965_1" fbc:name="G_WP_187428965_1" fbc:label="G_WP_187428965_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429137_1" fbc:name="G_WP_187429137_1" fbc:label="G_WP_187429137_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432103_1" fbc:name="G_WP_187432103_1" fbc:label="G_WP_187432103_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430681_1" fbc:name="G_WP_187430681_1" fbc:label="G_WP_187430681_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428800_1" fbc:name="G_WP_187428800_1" fbc:label="G_WP_187428800_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431505_1" fbc:name="G_WP_187431505_1" fbc:label="G_WP_187431505_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428779_1" fbc:name="G_WP_187428779_1" fbc:label="G_WP_187428779_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430662_1" fbc:name="G_WP_187430662_1" fbc:label="G_WP_187430662_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430866_1" fbc:name="G_WP_187430866_1" fbc:label="G_WP_187430866_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429736_1" fbc:name="G_WP_187429736_1" fbc:label="G_WP_187429736_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428256_1" fbc:name="G_WP_187428256_1" fbc:label="G_WP_187428256_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430863_1" fbc:name="G_WP_187430863_1" fbc:label="G_WP_187430863_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430864_1" fbc:name="G_WP_187430864_1" fbc:label="G_WP_187430864_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430862_1" fbc:name="G_WP_187430862_1" fbc:label="G_WP_187430862_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428571_1" fbc:name="G_WP_187428571_1" fbc:label="G_WP_187428571_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428115_1" fbc:name="G_WP_187428115_1" fbc:label="G_WP_187428115_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429783_1" fbc:name="G_WP_187429783_1" fbc:label="G_WP_187429783_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428018_1" fbc:name="G_WP_187428018_1" fbc:label="G_WP_187428018_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428020_1" fbc:name="G_WP_187428020_1" fbc:label="G_WP_187428020_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428021_1" fbc:name="G_WP_187428021_1" fbc:label="G_WP_187428021_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428965_1" fbc:name="G_WP_187428965_1" fbc:label="G_WP_187428965_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432208_1" fbc:name="G_WP_187432208_1" fbc:label="G_WP_187432208_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431520_1" fbc:name="G_WP_187431520_1" fbc:label="G_WP_187431520_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429216_1" fbc:name="G_WP_187429216_1" fbc:label="G_WP_187429216_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431214_1" fbc:name="G_WP_187431214_1" fbc:label="G_WP_187431214_1"/>
@@ -63919,6 +64399,7 @@
       <fbc:geneProduct fbc:id="G_WP_187432110_1" fbc:name="G_WP_187432110_1" fbc:label="G_WP_187432110_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431867_1" fbc:name="G_WP_187431867_1" fbc:label="G_WP_187431867_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431185_1" fbc:name="G_WP_187431185_1" fbc:label="G_WP_187431185_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430900_1" fbc:name="G_WP_187430900_1" fbc:label="G_WP_187430900_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431866_1" fbc:name="G_WP_187431866_1" fbc:label="G_WP_187431866_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432051_1" fbc:name="G_WP_187432051_1" fbc:label="G_WP_187432051_1"/>
@@ -63930,6 +64411,19 @@
       <fbc:geneProduct fbc:id="G_WP_187428403_1" fbc:name="G_WP_187428403_1" fbc:label="G_WP_187428403_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428402_1" fbc:name="G_WP_187428402_1" fbc:label="G_WP_187428402_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428399_1" fbc:name="G_WP_187428399_1" fbc:label="G_WP_187428399_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187432051_1" fbc:name="G_WP_187432051_1" fbc:label="G_WP_187432051_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430900_1" fbc:name="G_WP_187430900_1" fbc:label="G_WP_187430900_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432050_1" fbc:name="G_WP_187432050_1" fbc:label="G_WP_187432050_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431866_1" fbc:name="G_WP_187431866_1" fbc:label="G_WP_187431866_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429245_1" fbc:name="G_WP_187429245_1" fbc:label="G_WP_187429245_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429637_1" fbc:name="G_WP_187429637_1" fbc:label="G_WP_187429637_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428402_1" fbc:name="G_WP_187428402_1" fbc:label="G_WP_187428402_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428398_1" fbc:name="G_WP_187428398_1" fbc:label="G_WP_187428398_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428403_1" fbc:name="G_WP_187428403_1" fbc:label="G_WP_187428403_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428399_1" fbc:name="G_WP_187428399_1" fbc:label="G_WP_187428399_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428400_1" fbc:name="G_WP_187428400_1" fbc:label="G_WP_187428400_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428816_1" fbc:name="G_WP_187428816_1" fbc:label="G_WP_187428816_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428917_1" fbc:name="G_WP_187428917_1" fbc:label="G_WP_187428917_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432214_1" fbc:name="G_WP_187432214_1" fbc:label="G_WP_187432214_1"/>
@@ -63942,6 +64436,7 @@
       <fbc:geneProduct fbc:id="G_WP_187431643_1" fbc:name="G_WP_187431643_1" fbc:label="G_WP_187431643_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429628_1" fbc:name="G_WP_187429628_1" fbc:label="G_WP_187429628_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428983_1" fbc:name="G_WP_187428983_1" fbc:label="G_WP_187428983_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429288_1" fbc:name="G_WP_187429288_1" fbc:label="G_WP_187429288_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429382_1" fbc:name="G_WP_187429382_1" fbc:label="G_WP_187429382_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429058_1" fbc:name="G_WP_187429058_1" fbc:label="G_WP_187429058_1"/>
@@ -63953,6 +64448,19 @@
       <fbc:geneProduct fbc:id="G_WP_187431498_1" fbc:name="G_WP_187431498_1" fbc:label="G_WP_187431498_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431499_1" fbc:name="G_WP_187431499_1" fbc:label="G_WP_187431499_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429400_1" fbc:name="G_WP_187429400_1" fbc:label="G_WP_187429400_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429058_1" fbc:name="G_WP_187429058_1" fbc:label="G_WP_187429058_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429382_1" fbc:name="G_WP_187429382_1" fbc:label="G_WP_187429382_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429288_1" fbc:name="G_WP_187429288_1" fbc:label="G_WP_187429288_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430246_1" fbc:name="G_WP_187430246_1" fbc:label="G_WP_187430246_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429121_1" fbc:name="G_WP_187429121_1" fbc:label="G_WP_187429121_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430199_1" fbc:name="G_WP_187430199_1" fbc:label="G_WP_187430199_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431499_1" fbc:name="G_WP_187431499_1" fbc:label="G_WP_187431499_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431497_1" fbc:name="G_WP_187431497_1" fbc:label="G_WP_187431497_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429400_1" fbc:name="G_WP_187429400_1" fbc:label="G_WP_187429400_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431498_1" fbc:name="G_WP_187431498_1" fbc:label="G_WP_187431498_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431215_1" fbc:name="G_WP_187431215_1" fbc:label="G_WP_187431215_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428277_1" fbc:name="G_WP_187428277_1" fbc:label="G_WP_187428277_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428719_1" fbc:name="G_WP_187428719_1" fbc:label="G_WP_187428719_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429190_1" fbc:name="G_WP_187429190_1" fbc:label="G_WP_187429190_1"/>
@@ -63963,12 +64471,21 @@
       <fbc:geneProduct fbc:id="G_WP_187428606_1" fbc:name="G_WP_187428606_1" fbc:label="G_WP_187428606_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428960_1" fbc:name="G_WP_187428960_1" fbc:label="G_WP_187428960_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431028_1" fbc:name="G_WP_187431028_1" fbc:label="G_WP_187431028_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429721_1" fbc:name="G_WP_187429721_1" fbc:label="G_WP_187429721_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430568_1" fbc:name="G_WP_187430568_1" fbc:label="G_WP_187430568_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428419_1" fbc:name="G_WP_187428419_1" fbc:label="G_WP_187428419_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430265_1" fbc:name="G_WP_187430265_1" fbc:label="G_WP_187430265_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429470_1" fbc:name="G_WP_187429470_1" fbc:label="G_WP_187429470_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428463_1" fbc:name="G_WP_187428463_1" fbc:label="G_WP_187428463_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430568_1" fbc:name="G_WP_187430568_1" fbc:label="G_WP_187430568_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429721_1" fbc:name="G_WP_187429721_1" fbc:label="G_WP_187429721_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428419_1" fbc:name="G_WP_187428419_1" fbc:label="G_WP_187428419_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430265_1" fbc:name="G_WP_187430265_1" fbc:label="G_WP_187430265_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428463_1" fbc:name="G_WP_187428463_1" fbc:label="G_WP_187428463_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429470_1" fbc:name="G_WP_187429470_1" fbc:label="G_WP_187429470_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431607_1" fbc:name="G_WP_187431607_1" fbc:label="G_WP_187431607_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431874_1" fbc:name="G_WP_187431874_1" fbc:label="G_WP_187431874_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429861_1" fbc:name="G_WP_187429861_1" fbc:label="G_WP_187429861_1"/>
@@ -63976,15 +64493,23 @@
       <fbc:geneProduct fbc:id="G_WP_187429483_1" fbc:name="G_WP_187429483_1" fbc:label="G_WP_187429483_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430102_1" fbc:name="G_WP_187430102_1" fbc:label="G_WP_187430102_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430983_1" fbc:name="G_WP_187430983_1" fbc:label="G_WP_187430983_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428488_1" fbc:name="G_WP_187428488_1" fbc:label="G_WP_187428488_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431784_1" fbc:name="G_WP_187431784_1" fbc:label="G_WP_187431784_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429118_1" fbc:name="G_WP_187429118_1" fbc:label="G_WP_187429118_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429117_1" fbc:name="G_WP_187429117_1" fbc:label="G_WP_187429117_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429118_1" fbc:name="G_WP_187429118_1" fbc:label="G_WP_187429118_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429117_1" fbc:name="G_WP_187429117_1" fbc:label="G_WP_187429117_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431784_1" fbc:name="G_WP_187431784_1" fbc:label="G_WP_187431784_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428488_1" fbc:name="G_WP_187428488_1" fbc:label="G_WP_187428488_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428462_1" fbc:name="G_WP_187428462_1" fbc:label="G_WP_187428462_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432357_1" fbc:name="G_WP_187432357_1" fbc:label="G_WP_187432357_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430884_1" fbc:name="G_WP_187430884_1" fbc:label="G_WP_187430884_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430881_1" fbc:name="G_WP_187430881_1" fbc:label="G_WP_187430881_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429480_1" fbc:name="G_WP_187429480_1" fbc:label="G_WP_187429480_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428243_1" fbc:name="G_WP_187428243_1" fbc:label="G_WP_187428243_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431052_1" fbc:name="G_WP_187431052_1" fbc:label="G_WP_187431052_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431297_1" fbc:name="G_WP_187431297_1" fbc:label="G_WP_187431297_1"/>
@@ -63994,12 +64519,24 @@
       <fbc:geneProduct fbc:id="G_WP_187428482_1" fbc:name="G_WP_187428482_1" fbc:label="G_WP_187428482_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429359_1" fbc:name="G_WP_187429359_1" fbc:label="G_WP_187429359_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430705_1" fbc:name="G_WP_187430705_1" fbc:label="G_WP_187430705_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431009_1" fbc:name="G_WP_187431009_1" fbc:label="G_WP_187431009_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428243_1" fbc:name="G_WP_187428243_1" fbc:label="G_WP_187428243_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431052_1" fbc:name="G_WP_187431052_1" fbc:label="G_WP_187431052_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431297_1" fbc:name="G_WP_187431297_1" fbc:label="G_WP_187431297_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428244_1" fbc:name="G_WP_187428244_1" fbc:label="G_WP_187428244_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429359_1" fbc:name="G_WP_187429359_1" fbc:label="G_WP_187429359_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428482_1" fbc:name="G_WP_187428482_1" fbc:label="G_WP_187428482_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430705_1" fbc:name="G_WP_187430705_1" fbc:label="G_WP_187430705_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430205_1" fbc:name="G_WP_187430205_1" fbc:label="G_WP_187430205_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430065_1" fbc:name="G_WP_187430065_1" fbc:label="G_WP_187430065_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429569_1" fbc:name="G_WP_187429569_1" fbc:label="G_WP_187429569_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428939_1" fbc:name="G_WP_187428939_1" fbc:label="G_WP_187428939_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429238_1" fbc:name="G_WP_187429238_1" fbc:label="G_WP_187429238_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429660_1" fbc:name="G_WP_187429660_1" fbc:label="G_WP_187429660_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430289_1" fbc:name="G_WP_187430289_1" fbc:label="G_WP_187430289_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429525_1" fbc:name="G_WP_187429525_1" fbc:label="G_WP_187429525_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428605_1" fbc:name="G_WP_187428605_1" fbc:label="G_WP_187428605_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428248_1" fbc:name="G_WP_187428248_1" fbc:label="G_WP_187428248_1"/>
@@ -64017,11 +64554,31 @@
       <fbc:geneProduct fbc:id="G_WP_187431602_1" fbc:name="G_WP_187431602_1" fbc:label="G_WP_187431602_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428946_1" fbc:name="G_WP_187428946_1" fbc:label="G_WP_187428946_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428750_1" fbc:name="G_WP_187428750_1" fbc:label="G_WP_187428750_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428605_1" fbc:name="G_WP_187428605_1" fbc:label="G_WP_187428605_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429525_1" fbc:name="G_WP_187429525_1" fbc:label="G_WP_187429525_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428249_1" fbc:name="G_WP_187428249_1" fbc:label="G_WP_187428249_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431033_1" fbc:name="G_WP_187431033_1" fbc:label="G_WP_187431033_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428247_1" fbc:name="G_WP_187428247_1" fbc:label="G_WP_187428247_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428246_1" fbc:name="G_WP_187428246_1" fbc:label="G_WP_187428246_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428248_1" fbc:name="G_WP_187428248_1" fbc:label="G_WP_187428248_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431048_1" fbc:name="G_WP_187431048_1" fbc:label="G_WP_187431048_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428702_1" fbc:name="G_WP_187428702_1" fbc:label="G_WP_187428702_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428922_1" fbc:name="G_WP_187428922_1" fbc:label="G_WP_187428922_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428906_1" fbc:name="G_WP_187428906_1" fbc:label="G_WP_187428906_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431278_1" fbc:name="G_WP_187431278_1" fbc:label="G_WP_187431278_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428907_1" fbc:name="G_WP_187428907_1" fbc:label="G_WP_187428907_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431325_1" fbc:name="G_WP_187431325_1" fbc:label="G_WP_187431325_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428750_1" fbc:name="G_WP_187428750_1" fbc:label="G_WP_187428750_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428946_1" fbc:name="G_WP_187428946_1" fbc:label="G_WP_187428946_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431602_1" fbc:name="G_WP_187431602_1" fbc:label="G_WP_187431602_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429115_1" fbc:name="G_WP_187429115_1" fbc:label="G_WP_187429115_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431047_1" fbc:name="G_WP_187431047_1" fbc:label="G_WP_187431047_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429950_1" fbc:name="G_WP_187429950_1" fbc:label="G_WP_187429950_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429984_1" fbc:name="G_WP_187429984_1" fbc:label="G_WP_187429984_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432075_1" fbc:name="G_WP_187432075_1" fbc:label="G_WP_187432075_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430327_1" fbc:name="G_WP_187430327_1" fbc:label="G_WP_187430327_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430326_1" fbc:name="G_WP_187430326_1" fbc:label="G_WP_187430326_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429434_1" fbc:name="G_WP_187429434_1" fbc:label="G_WP_187429434_1"/>
@@ -64035,13 +64592,33 @@
       <fbc:geneProduct fbc:id="G_WP_187428655_1" fbc:name="G_WP_187428655_1" fbc:label="G_WP_187428655_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428678_1" fbc:name="G_WP_187428678_1" fbc:label="G_WP_187428678_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428658_1" fbc:name="G_WP_187428658_1" fbc:label="G_WP_187428658_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430326_1" fbc:name="G_WP_187430326_1" fbc:label="G_WP_187430326_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430327_1" fbc:name="G_WP_187430327_1" fbc:label="G_WP_187430327_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429434_1" fbc:name="G_WP_187429434_1" fbc:label="G_WP_187429434_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430585_1" fbc:name="G_WP_187430585_1" fbc:label="G_WP_187430585_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430117_1" fbc:name="G_WP_187430117_1" fbc:label="G_WP_187430117_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428662_1" fbc:name="G_WP_187428662_1" fbc:label="G_WP_187428662_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428107_1" fbc:name="G_WP_187428107_1" fbc:label="G_WP_187428107_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428659_1" fbc:name="G_WP_187428659_1" fbc:label="G_WP_187428659_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428658_1" fbc:name="G_WP_187428658_1" fbc:label="G_WP_187428658_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428655_1" fbc:name="G_WP_187428655_1" fbc:label="G_WP_187428655_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428678_1" fbc:name="G_WP_187428678_1" fbc:label="G_WP_187428678_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428656_1" fbc:name="G_WP_187428656_1" fbc:label="G_WP_187428656_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428657_1" fbc:name="G_WP_187428657_1" fbc:label="G_WP_187428657_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428673_1" fbc:name="G_WP_187428673_1" fbc:label="G_WP_187428673_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429476_1" fbc:name="G_WP_187429476_1" fbc:label="G_WP_187429476_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432278_1" fbc:name="G_WP_187432278_1" fbc:label="G_WP_187432278_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428192_1" fbc:name="G_WP_187428192_1" fbc:label="G_WP_187428192_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428973_1" fbc:name="G_WP_187428973_1" fbc:label="G_WP_187428973_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428712_1" fbc:name="G_WP_187428712_1" fbc:label="G_WP_187428712_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428713_1" fbc:name="G_WP_187428713_1" fbc:label="G_WP_187428713_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428713_1" fbc:name="G_WP_187428713_1" fbc:label="G_WP_187428713_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428712_1" fbc:name="G_WP_187428712_1" fbc:label="G_WP_187428712_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428397_1" fbc:name="G_WP_187428397_1" fbc:label="G_WP_187428397_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429503_1" fbc:name="G_WP_187429503_1" fbc:label="G_WP_187429503_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428401_1" fbc:name="G_WP_187428401_1" fbc:label="G_WP_187428401_1"/>
@@ -64071,6 +64648,7 @@
       <fbc:geneProduct fbc:id="G_WP_187431156_1" fbc:name="G_WP_187431156_1" fbc:label="G_WP_187431156_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428062_1" fbc:name="G_WP_187428062_1" fbc:label="G_WP_187428062_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429768_1" fbc:name="G_WP_187429768_1" fbc:label="G_WP_187429768_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429449_1" fbc:name="G_WP_187429449_1" fbc:label="G_WP_187429449_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429654_1" fbc:name="G_WP_187429654_1" fbc:label="G_WP_187429654_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430670_1" fbc:name="G_WP_187430670_1" fbc:label="G_WP_187430670_1"/>
@@ -64078,10 +64656,20 @@
       <fbc:geneProduct fbc:id="G_WP_187431713_1" fbc:name="G_WP_187431713_1" fbc:label="G_WP_187431713_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431001_1" fbc:name="G_WP_187431001_1" fbc:label="G_WP_187431001_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428855_1" fbc:name="G_WP_187428855_1" fbc:label="G_WP_187428855_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429654_1" fbc:name="G_WP_187429654_1" fbc:label="G_WP_187429654_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429449_1" fbc:name="G_WP_187429449_1" fbc:label="G_WP_187429449_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430670_1" fbc:name="G_WP_187430670_1" fbc:label="G_WP_187430670_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431929_1" fbc:name="G_WP_187431929_1" fbc:label="G_WP_187431929_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431713_1" fbc:name="G_WP_187431713_1" fbc:label="G_WP_187431713_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428855_1" fbc:name="G_WP_187428855_1" fbc:label="G_WP_187428855_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431001_1" fbc:name="G_WP_187431001_1" fbc:label="G_WP_187431001_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430592_1" fbc:name="G_WP_187430592_1" fbc:label="G_WP_187430592_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430374_1" fbc:name="G_WP_187430374_1" fbc:label="G_WP_187430374_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429898_1" fbc:name="G_WP_187429898_1" fbc:label="G_WP_187429898_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429433_1" fbc:name="G_WP_187429433_1" fbc:label="G_WP_187429433_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428052_1" fbc:name="G_WP_187428052_1" fbc:label="G_WP_187428052_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432358_1" fbc:name="G_WP_187432358_1" fbc:label="G_WP_187432358_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430469_1" fbc:name="G_WP_187430469_1" fbc:label="G_WP_187430469_1"/>
@@ -64091,12 +64679,24 @@
       <fbc:geneProduct fbc:id="G_WP_187428380_1" fbc:name="G_WP_187428380_1" fbc:label="G_WP_187428380_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428377_1" fbc:name="G_WP_187428377_1" fbc:label="G_WP_187428377_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428379_1" fbc:name="G_WP_187428379_1" fbc:label="G_WP_187428379_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430469_1" fbc:name="G_WP_187430469_1" fbc:label="G_WP_187430469_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428052_1" fbc:name="G_WP_187428052_1" fbc:label="G_WP_187428052_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432358_1" fbc:name="G_WP_187432358_1" fbc:label="G_WP_187432358_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432361_1" fbc:name="G_WP_187432361_1" fbc:label="G_WP_187432361_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428321_1" fbc:name="G_WP_187428321_1" fbc:label="G_WP_187428321_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428380_1" fbc:name="G_WP_187428380_1" fbc:label="G_WP_187428380_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428379_1" fbc:name="G_WP_187428379_1" fbc:label="G_WP_187428379_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428378_1" fbc:name="G_WP_187428378_1" fbc:label="G_WP_187428378_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428377_1" fbc:name="G_WP_187428377_1" fbc:label="G_WP_187428377_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430675_1" fbc:name="G_WP_187430675_1" fbc:label="G_WP_187430675_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428374_1" fbc:name="G_WP_187428374_1" fbc:label="G_WP_187428374_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428747_1" fbc:name="G_WP_187428747_1" fbc:label="G_WP_187428747_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430179_1" fbc:name="G_WP_187430179_1" fbc:label="G_WP_187430179_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432005_1" fbc:name="G_WP_187432005_1" fbc:label="G_WP_187432005_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429560_1" fbc:name="G_WP_187429560_1" fbc:label="G_WP_187429560_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429577_1" fbc:name="G_WP_187429577_1" fbc:label="G_WP_187429577_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429520_1" fbc:name="G_WP_187429520_1" fbc:label="G_WP_187429520_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428406_1" fbc:name="G_WP_187428406_1" fbc:label="G_WP_187428406_1"/>
@@ -64108,6 +64708,19 @@
       <fbc:geneProduct fbc:id="G_WP_187429946_1" fbc:name="G_WP_187429946_1" fbc:label="G_WP_187429946_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430381_1" fbc:name="G_WP_187430381_1" fbc:label="G_WP_187430381_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429075_1" fbc:name="G_WP_187429075_1" fbc:label="G_WP_187429075_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429520_1" fbc:name="G_WP_187429520_1" fbc:label="G_WP_187429520_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429577_1" fbc:name="G_WP_187429577_1" fbc:label="G_WP_187429577_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428406_1" fbc:name="G_WP_187428406_1" fbc:label="G_WP_187428406_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429942_1" fbc:name="G_WP_187429942_1" fbc:label="G_WP_187429942_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431273_1" fbc:name="G_WP_187431273_1" fbc:label="G_WP_187431273_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430281_1" fbc:name="G_WP_187430281_1" fbc:label="G_WP_187430281_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431494_1" fbc:name="G_WP_187431494_1" fbc:label="G_WP_187431494_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431493_1" fbc:name="G_WP_187431493_1" fbc:label="G_WP_187431493_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429946_1" fbc:name="G_WP_187429946_1" fbc:label="G_WP_187429946_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429075_1" fbc:name="G_WP_187429075_1" fbc:label="G_WP_187429075_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430381_1" fbc:name="G_WP_187430381_1" fbc:label="G_WP_187430381_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429587_1" fbc:name="G_WP_187429587_1" fbc:label="G_WP_187429587_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429089_1" fbc:name="G_WP_187429089_1" fbc:label="G_WP_187429089_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431164_1" fbc:name="G_WP_187431164_1" fbc:label="G_WP_187431164_1"/>
@@ -64117,6 +64730,7 @@
       <fbc:geneProduct fbc:id="G_WP_187428003_1" fbc:name="G_WP_187428003_1" fbc:label="G_WP_187428003_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432007_1" fbc:name="G_WP_187432007_1" fbc:label="G_WP_187432007_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430668_1" fbc:name="G_WP_187430668_1" fbc:label="G_WP_187430668_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187431632_1" fbc:name="G_WP_187431632_1" fbc:label="G_WP_187431632_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431615_1" fbc:name="G_WP_187431615_1" fbc:label="G_WP_187431615_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429310_1" fbc:name="G_WP_187429310_1" fbc:label="G_WP_187429310_1"/>
@@ -64142,6 +64756,33 @@
       <fbc:geneProduct fbc:id="G_WP_187430731_1" fbc:name="G_WP_187430731_1" fbc:label="G_WP_187430731_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430730_1" fbc:name="G_WP_187430730_1" fbc:label="G_WP_187430730_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428921_1" fbc:name="G_WP_187428921_1" fbc:label="G_WP_187428921_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431615_1" fbc:name="G_WP_187431615_1" fbc:label="G_WP_187431615_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429310_1" fbc:name="G_WP_187429310_1" fbc:label="G_WP_187429310_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429392_1" fbc:name="G_WP_187429392_1" fbc:label="G_WP_187429392_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431632_1" fbc:name="G_WP_187431632_1" fbc:label="G_WP_187431632_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431172_1" fbc:name="G_WP_187431172_1" fbc:label="G_WP_187431172_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431875_1" fbc:name="G_WP_187431875_1" fbc:label="G_WP_187431875_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431069_1" fbc:name="G_WP_187431069_1" fbc:label="G_WP_187431069_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432312_1" fbc:name="G_WP_187432312_1" fbc:label="G_WP_187432312_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428376_1" fbc:name="G_WP_187428376_1" fbc:label="G_WP_187428376_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430483_1" fbc:name="G_WP_187430483_1" fbc:label="G_WP_187430483_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431240_1" fbc:name="G_WP_187431240_1" fbc:label="G_WP_187431240_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429910_1" fbc:name="G_WP_187429910_1" fbc:label="G_WP_187429910_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431246_1" fbc:name="G_WP_187431246_1" fbc:label="G_WP_187431246_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431245_1" fbc:name="G_WP_187431245_1" fbc:label="G_WP_187431245_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431239_1" fbc:name="G_WP_187431239_1" fbc:label="G_WP_187431239_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432087_1" fbc:name="G_WP_187432087_1" fbc:label="G_WP_187432087_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431244_1" fbc:name="G_WP_187431244_1" fbc:label="G_WP_187431244_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430037_1" fbc:name="G_WP_187430037_1" fbc:label="G_WP_187430037_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429366_1" fbc:name="G_WP_187429366_1" fbc:label="G_WP_187429366_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432164_1" fbc:name="G_WP_187432164_1" fbc:label="G_WP_187432164_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430731_1" fbc:name="G_WP_187430731_1" fbc:label="G_WP_187430731_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430729_1" fbc:name="G_WP_187430729_1" fbc:label="G_WP_187430729_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430730_1" fbc:name="G_WP_187430730_1" fbc:label="G_WP_187430730_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428921_1" fbc:name="G_WP_187428921_1" fbc:label="G_WP_187428921_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428430_1" fbc:name="G_WP_187428430_1" fbc:label="G_WP_187428430_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431647_1" fbc:name="G_WP_187431647_1" fbc:label="G_WP_187431647_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430732_1" fbc:name="G_WP_187430732_1" fbc:label="G_WP_187430732_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431731_1" fbc:name="G_WP_187431731_1" fbc:label="G_WP_187431731_1"/>
@@ -64155,6 +64796,7 @@
       <fbc:geneProduct fbc:id="G_WP_187431161_1" fbc:name="G_WP_187431161_1" fbc:label="G_WP_187431161_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429233_1" fbc:name="G_WP_187429233_1" fbc:label="G_WP_187429233_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432096_1" fbc:name="G_WP_187432096_1" fbc:label="G_WP_187432096_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429468_1" fbc:name="G_WP_187429468_1" fbc:label="G_WP_187429468_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428826_1" fbc:name="G_WP_187428826_1" fbc:label="G_WP_187428826_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428998_1" fbc:name="G_WP_187428998_1" fbc:label="G_WP_187428998_1"/>
@@ -64165,6 +64807,18 @@
       <fbc:geneProduct fbc:id="G_WP_187431114_1" fbc:name="G_WP_187431114_1" fbc:label="G_WP_187431114_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430112_1" fbc:name="G_WP_187430112_1" fbc:label="G_WP_187430112_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430220_1" fbc:name="G_WP_187430220_1" fbc:label="G_WP_187430220_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428826_1" fbc:name="G_WP_187428826_1" fbc:label="G_WP_187428826_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429468_1" fbc:name="G_WP_187429468_1" fbc:label="G_WP_187429468_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429417_1" fbc:name="G_WP_187429417_1" fbc:label="G_WP_187429417_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428998_1" fbc:name="G_WP_187428998_1" fbc:label="G_WP_187428998_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430583_1" fbc:name="G_WP_187430583_1" fbc:label="G_WP_187430583_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430432_1" fbc:name="G_WP_187430432_1" fbc:label="G_WP_187430432_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431114_1" fbc:name="G_WP_187431114_1" fbc:label="G_WP_187431114_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428474_1" fbc:name="G_WP_187428474_1" fbc:label="G_WP_187428474_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430220_1" fbc:name="G_WP_187430220_1" fbc:label="G_WP_187430220_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430112_1" fbc:name="G_WP_187430112_1" fbc:label="G_WP_187430112_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429410_1" fbc:name="G_WP_187429410_1" fbc:label="G_WP_187429410_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432014_1" fbc:name="G_WP_187432014_1" fbc:label="G_WP_187432014_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430043_1" fbc:name="G_WP_187430043_1" fbc:label="G_WP_187430043_1"/>
@@ -64172,8 +64826,13 @@
       <fbc:geneProduct fbc:id="G_WP_187431106_1" fbc:name="G_WP_187431106_1" fbc:label="G_WP_187431106_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431057_1" fbc:name="G_WP_187431057_1" fbc:label="G_WP_187431057_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429903_1" fbc:name="G_WP_187429903_1" fbc:label="G_WP_187429903_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430098_1" fbc:name="G_WP_187430098_1" fbc:label="G_WP_187430098_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430099_1" fbc:name="G_WP_187430099_1" fbc:label="G_WP_187430099_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430099_1" fbc:name="G_WP_187430099_1" fbc:label="G_WP_187430099_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430098_1" fbc:name="G_WP_187430098_1" fbc:label="G_WP_187430098_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187432026_1" fbc:name="G_WP_187432026_1" fbc:label="G_WP_187432026_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430911_1" fbc:name="G_WP_187430911_1" fbc:label="G_WP_187430911_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430913_1" fbc:name="G_WP_187430913_1" fbc:label="G_WP_187430913_1"/>
@@ -64184,6 +64843,7 @@
       <fbc:geneProduct fbc:id="G_WP_187428690_1" fbc:name="G_WP_187428690_1" fbc:label="G_WP_187428690_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429364_1" fbc:name="G_WP_187429364_1" fbc:label="G_WP_187429364_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429663_1" fbc:name="G_WP_187429663_1" fbc:label="G_WP_187429663_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430694_1" fbc:name="G_WP_187430694_1" fbc:label="G_WP_187430694_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430697_1" fbc:name="G_WP_187430697_1" fbc:label="G_WP_187430697_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430696_1" fbc:name="G_WP_187430696_1" fbc:label="G_WP_187430696_1"/>
@@ -64199,11 +64859,29 @@
       <fbc:geneProduct fbc:id="G_WP_187430700_1" fbc:name="G_WP_187430700_1" fbc:label="G_WP_187430700_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430704_1" fbc:name="G_WP_187430704_1" fbc:label="G_WP_187430704_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430699_1" fbc:name="G_WP_187430699_1" fbc:label="G_WP_187430699_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187431623_1" fbc:name="G_WP_187431623_1" fbc:label="G_WP_187431623_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431625_1" fbc:name="G_WP_187431625_1" fbc:label="G_WP_187431625_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430696_1" fbc:name="G_WP_187430696_1" fbc:label="G_WP_187430696_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429892_1" fbc:name="G_WP_187429892_1" fbc:label="G_WP_187429892_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429894_1" fbc:name="G_WP_187429894_1" fbc:label="G_WP_187429894_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429893_1" fbc:name="G_WP_187429893_1" fbc:label="G_WP_187429893_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430695_1" fbc:name="G_WP_187430695_1" fbc:label="G_WP_187430695_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431624_1" fbc:name="G_WP_187431624_1" fbc:label="G_WP_187431624_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430697_1" fbc:name="G_WP_187430697_1" fbc:label="G_WP_187430697_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430694_1" fbc:name="G_WP_187430694_1" fbc:label="G_WP_187430694_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430703_1" fbc:name="G_WP_187430703_1" fbc:label="G_WP_187430703_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430704_1" fbc:name="G_WP_187430704_1" fbc:label="G_WP_187430704_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430699_1" fbc:name="G_WP_187430699_1" fbc:label="G_WP_187430699_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430701_1" fbc:name="G_WP_187430701_1" fbc:label="G_WP_187430701_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430700_1" fbc:name="G_WP_187430700_1" fbc:label="G_WP_187430700_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431934_1" fbc:name="G_WP_187431934_1" fbc:label="G_WP_187431934_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428173_1" fbc:name="G_WP_187428173_1" fbc:label="G_WP_187428173_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428346_1" fbc:name="G_WP_187428346_1" fbc:label="G_WP_187428346_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429146_1" fbc:name="G_WP_187429146_1" fbc:label="G_WP_187429146_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429612_1" fbc:name="G_WP_187429612_1" fbc:label="G_WP_187429612_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428908_1" fbc:name="G_WP_187428908_1" fbc:label="G_WP_187428908_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429805_1" fbc:name="G_WP_187429805_1" fbc:label="G_WP_187429805_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430840_1" fbc:name="G_WP_187430840_1" fbc:label="G_WP_187430840_1"/>
@@ -64231,6 +64909,35 @@
       <fbc:geneProduct fbc:id="G_WP_187430663_1" fbc:name="G_WP_187430663_1" fbc:label="G_WP_187430663_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428650_1" fbc:name="G_WP_187428650_1" fbc:label="G_WP_187428650_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431086_1" fbc:name="G_WP_187431086_1" fbc:label="G_WP_187431086_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429805_1" fbc:name="G_WP_187429805_1" fbc:label="G_WP_187429805_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428908_1" fbc:name="G_WP_187428908_1" fbc:label="G_WP_187428908_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430840_1" fbc:name="G_WP_187430840_1" fbc:label="G_WP_187430840_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429125_1" fbc:name="G_WP_187429125_1" fbc:label="G_WP_187429125_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431209_1" fbc:name="G_WP_187431209_1" fbc:label="G_WP_187431209_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430353_1" fbc:name="G_WP_187430353_1" fbc:label="G_WP_187430353_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428347_1" fbc:name="G_WP_187428347_1" fbc:label="G_WP_187428347_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428196_1" fbc:name="G_WP_187428196_1" fbc:label="G_WP_187428196_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428837_1" fbc:name="G_WP_187428837_1" fbc:label="G_WP_187428837_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430352_1" fbc:name="G_WP_187430352_1" fbc:label="G_WP_187430352_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430870_1" fbc:name="G_WP_187430870_1" fbc:label="G_WP_187430870_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431206_1" fbc:name="G_WP_187431206_1" fbc:label="G_WP_187431206_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430349_1" fbc:name="G_WP_187430349_1" fbc:label="G_WP_187430349_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432237_1" fbc:name="G_WP_187432237_1" fbc:label="G_WP_187432237_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432243_1" fbc:name="G_WP_187432243_1" fbc:label="G_WP_187432243_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432236_1" fbc:name="G_WP_187432236_1" fbc:label="G_WP_187432236_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431799_1" fbc:name="G_WP_187431799_1" fbc:label="G_WP_187431799_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429934_1" fbc:name="G_WP_187429934_1" fbc:label="G_WP_187429934_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432229_1" fbc:name="G_WP_187432229_1" fbc:label="G_WP_187432229_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430229_1" fbc:name="G_WP_187430229_1" fbc:label="G_WP_187430229_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430108_1" fbc:name="G_WP_187430108_1" fbc:label="G_WP_187430108_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430651_1" fbc:name="G_WP_187430651_1" fbc:label="G_WP_187430651_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430652_1" fbc:name="G_WP_187430652_1" fbc:label="G_WP_187430652_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430655_1" fbc:name="G_WP_187430655_1" fbc:label="G_WP_187430655_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430663_1" fbc:name="G_WP_187430663_1" fbc:label="G_WP_187430663_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431086_1" fbc:name="G_WP_187431086_1" fbc:label="G_WP_187431086_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428650_1" fbc:name="G_WP_187428650_1" fbc:label="G_WP_187428650_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429016_1" fbc:name="G_WP_187429016_1" fbc:label="G_WP_187429016_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429015_1" fbc:name="G_WP_187429015_1" fbc:label="G_WP_187429015_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429974_1" fbc:name="G_WP_187429974_1" fbc:label="G_WP_187429974_1"/>
@@ -64240,20 +64947,36 @@
       <fbc:geneProduct fbc:id="G_WP_187430256_1" fbc:name="G_WP_187430256_1" fbc:label="G_WP_187430256_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429797_1" fbc:name="G_WP_187429797_1" fbc:label="G_WP_187429797_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430350_1" fbc:name="G_WP_187430350_1" fbc:label="G_WP_187430350_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429583_1" fbc:name="G_WP_187429583_1" fbc:label="G_WP_187429583_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430710_1" fbc:name="G_WP_187430710_1" fbc:label="G_WP_187430710_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431788_1" fbc:name="G_WP_187431788_1" fbc:label="G_WP_187431788_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428012_1" fbc:name="G_WP_187428012_1" fbc:label="G_WP_187428012_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429196_1" fbc:name="G_WP_187429196_1" fbc:label="G_WP_187429196_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430428_1" fbc:name="G_WP_187430428_1" fbc:label="G_WP_187430428_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187430710_1" fbc:name="G_WP_187430710_1" fbc:label="G_WP_187430710_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429583_1" fbc:name="G_WP_187429583_1" fbc:label="G_WP_187429583_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431788_1" fbc:name="G_WP_187431788_1" fbc:label="G_WP_187431788_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430428_1" fbc:name="G_WP_187430428_1" fbc:label="G_WP_187430428_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429196_1" fbc:name="G_WP_187429196_1" fbc:label="G_WP_187429196_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428012_1" fbc:name="G_WP_187428012_1" fbc:label="G_WP_187428012_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430231_1" fbc:name="G_WP_187430231_1" fbc:label="G_WP_187430231_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429432_1" fbc:name="G_WP_187429432_1" fbc:label="G_WP_187429432_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429325_1" fbc:name="G_WP_187429325_1" fbc:label="G_WP_187429325_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430831_1" fbc:name="G_WP_187430831_1" fbc:label="G_WP_187430831_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187431283_1" fbc:name="G_WP_187431283_1" fbc:label="G_WP_187431283_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428084_1" fbc:name="G_WP_187428084_1" fbc:label="G_WP_187428084_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428948_1" fbc:name="G_WP_187428948_1" fbc:label="G_WP_187428948_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430418_1" fbc:name="G_WP_187430418_1" fbc:label="G_WP_187430418_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428948_1" fbc:name="G_WP_187428948_1" fbc:label="G_WP_187428948_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430418_1" fbc:name="G_WP_187430418_1" fbc:label="G_WP_187430418_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431283_1" fbc:name="G_WP_187431283_1" fbc:label="G_WP_187431283_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428084_1" fbc:name="G_WP_187428084_1" fbc:label="G_WP_187428084_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428476_1" fbc:name="G_WP_187428476_1" fbc:label="G_WP_187428476_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430069_1" fbc:name="G_WP_187430069_1" fbc:label="G_WP_187430069_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430551_1" fbc:name="G_WP_187430551_1" fbc:label="G_WP_187430551_1"/>
@@ -64267,6 +64990,7 @@
       <fbc:geneProduct fbc:id="G_WP_187428858_1" fbc:name="G_WP_187428858_1" fbc:label="G_WP_187428858_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428222_1" fbc:name="G_WP_187428222_1" fbc:label="G_WP_187428222_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429524_1" fbc:name="G_WP_187429524_1" fbc:label="G_WP_187429524_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430491_1" fbc:name="G_WP_187430491_1" fbc:label="G_WP_187430491_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428899_1" fbc:name="G_WP_187428899_1" fbc:label="G_WP_187428899_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429815_1" fbc:name="G_WP_187429815_1" fbc:label="G_WP_187429815_1"/>
@@ -64275,6 +64999,16 @@
       <fbc:geneProduct fbc:id="G_WP_187429191_1" fbc:name="G_WP_187429191_1" fbc:label="G_WP_187429191_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431132_1" fbc:name="G_WP_187431132_1" fbc:label="G_WP_187431132_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429193_1" fbc:name="G_WP_187429193_1" fbc:label="G_WP_187429193_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428899_1" fbc:name="G_WP_187428899_1" fbc:label="G_WP_187428899_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430491_1" fbc:name="G_WP_187430491_1" fbc:label="G_WP_187430491_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430267_1" fbc:name="G_WP_187430267_1" fbc:label="G_WP_187430267_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429815_1" fbc:name="G_WP_187429815_1" fbc:label="G_WP_187429815_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429193_1" fbc:name="G_WP_187429193_1" fbc:label="G_WP_187429193_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429191_1" fbc:name="G_WP_187429191_1" fbc:label="G_WP_187429191_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431132_1" fbc:name="G_WP_187431132_1" fbc:label="G_WP_187431132_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429192_1" fbc:name="G_WP_187429192_1" fbc:label="G_WP_187429192_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430416_1" fbc:name="G_WP_187430416_1" fbc:label="G_WP_187430416_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431727_1" fbc:name="G_WP_187431727_1" fbc:label="G_WP_187431727_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431729_1" fbc:name="G_WP_187431729_1" fbc:label="G_WP_187431729_1"/>
@@ -64282,6 +65016,7 @@
       <fbc:geneProduct fbc:id="G_WP_187431939_1" fbc:name="G_WP_187431939_1" fbc:label="G_WP_187431939_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430712_1" fbc:name="G_WP_187430712_1" fbc:label="G_WP_187430712_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429649_1" fbc:name="G_WP_187429649_1" fbc:label="G_WP_187429649_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429145_1" fbc:name="G_WP_187429145_1" fbc:label="G_WP_187429145_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429144_1" fbc:name="G_WP_187429144_1" fbc:label="G_WP_187429144_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429143_1" fbc:name="G_WP_187429143_1" fbc:label="G_WP_187429143_1"/>
@@ -64289,6 +65024,15 @@
       <fbc:geneProduct fbc:id="G_WP_187431709_1" fbc:name="G_WP_187431709_1" fbc:label="G_WP_187431709_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428459_1" fbc:name="G_WP_187428459_1" fbc:label="G_WP_187428459_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428857_1" fbc:name="G_WP_187428857_1" fbc:label="G_WP_187428857_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429144_1" fbc:name="G_WP_187429144_1" fbc:label="G_WP_187429144_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429143_1" fbc:name="G_WP_187429143_1" fbc:label="G_WP_187429143_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429145_1" fbc:name="G_WP_187429145_1" fbc:label="G_WP_187429145_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428294_1" fbc:name="G_WP_187428294_1" fbc:label="G_WP_187428294_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431709_1" fbc:name="G_WP_187431709_1" fbc:label="G_WP_187431709_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428857_1" fbc:name="G_WP_187428857_1" fbc:label="G_WP_187428857_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428459_1" fbc:name="G_WP_187428459_1" fbc:label="G_WP_187428459_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187429930_1" fbc:name="G_WP_187429930_1" fbc:label="G_WP_187429930_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429046_1" fbc:name="G_WP_187429046_1" fbc:label="G_WP_187429046_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429357_1" fbc:name="G_WP_187429357_1" fbc:label="G_WP_187429357_1"/>
@@ -64298,6 +65042,7 @@
       <fbc:geneProduct fbc:id="G_WP_187430462_1" fbc:name="G_WP_187430462_1" fbc:label="G_WP_187430462_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430619_1" fbc:name="G_WP_187430619_1" fbc:label="G_WP_187430619_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430424_1" fbc:name="G_WP_187430424_1" fbc:label="G_WP_187430424_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187428316_1" fbc:name="G_WP_187428316_1" fbc:label="G_WP_187428316_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430008_1" fbc:name="G_WP_187430008_1" fbc:label="G_WP_187430008_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430288_1" fbc:name="G_WP_187430288_1" fbc:label="G_WP_187430288_1"/>
@@ -64306,6 +65051,16 @@
       <fbc:geneProduct fbc:id="G_WP_187429408_1" fbc:name="G_WP_187429408_1" fbc:label="G_WP_187429408_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428264_1" fbc:name="G_WP_187428264_1" fbc:label="G_WP_187428264_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429780_1" fbc:name="G_WP_187429780_1" fbc:label="G_WP_187429780_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429413_1" fbc:name="G_WP_187429413_1" fbc:label="G_WP_187429413_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430288_1" fbc:name="G_WP_187430288_1" fbc:label="G_WP_187430288_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428316_1" fbc:name="G_WP_187428316_1" fbc:label="G_WP_187428316_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430008_1" fbc:name="G_WP_187430008_1" fbc:label="G_WP_187430008_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429399_1" fbc:name="G_WP_187429399_1" fbc:label="G_WP_187429399_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429408_1" fbc:name="G_WP_187429408_1" fbc:label="G_WP_187429408_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429780_1" fbc:name="G_WP_187429780_1" fbc:label="G_WP_187429780_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428264_1" fbc:name="G_WP_187428264_1" fbc:label="G_WP_187428264_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187430753_1" fbc:name="G_WP_187430753_1" fbc:label="G_WP_187430753_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428749_1" fbc:name="G_WP_187428749_1" fbc:label="G_WP_187428749_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430051_1" fbc:name="G_WP_187430051_1" fbc:label="G_WP_187430051_1"/>
@@ -64315,6 +65070,7 @@
       <fbc:geneProduct fbc:id="G_WP_187428742_1" fbc:name="G_WP_187428742_1" fbc:label="G_WP_187428742_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428740_1" fbc:name="G_WP_187428740_1" fbc:label="G_WP_187428740_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429110_1" fbc:name="G_WP_187429110_1" fbc:label="G_WP_187429110_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187431084_1" fbc:name="G_WP_187431084_1" fbc:label="G_WP_187431084_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428423_1" fbc:name="G_WP_187428423_1" fbc:label="G_WP_187428423_1"/>
       <fbc:geneProduct fbc:id="G_WP_187431978_1" fbc:name="G_WP_187431978_1" fbc:label="G_WP_187431978_1"/>
@@ -64322,11 +65078,21 @@
       <fbc:geneProduct fbc:id="G_WP_187431393_1" fbc:name="G_WP_187431393_1" fbc:label="G_WP_187431393_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428000_1" fbc:name="G_WP_187428000_1" fbc:label="G_WP_187428000_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428146_1" fbc:name="G_WP_187428146_1" fbc:label="G_WP_187428146_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428423_1" fbc:name="G_WP_187428423_1" fbc:label="G_WP_187428423_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431084_1" fbc:name="G_WP_187431084_1" fbc:label="G_WP_187431084_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431978_1" fbc:name="G_WP_187431978_1" fbc:label="G_WP_187431978_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431393_1" fbc:name="G_WP_187431393_1" fbc:label="G_WP_187431393_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431090_1" fbc:name="G_WP_187431090_1" fbc:label="G_WP_187431090_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428146_1" fbc:name="G_WP_187428146_1" fbc:label="G_WP_187428146_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428000_1" fbc:name="G_WP_187428000_1" fbc:label="G_WP_187428000_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187428748_1" fbc:name="G_WP_187428748_1" fbc:label="G_WP_187428748_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428736_1" fbc:name="G_WP_187428736_1" fbc:label="G_WP_187428736_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430561_1" fbc:name="G_WP_187430561_1" fbc:label="G_WP_187430561_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428988_1" fbc:name="G_WP_187428988_1" fbc:label="G_WP_187428988_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429467_1" fbc:name="G_WP_187429467_1" fbc:label="G_WP_187429467_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187429836_1" fbc:name="G_WP_187429836_1" fbc:label="G_WP_187429836_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429790_1" fbc:name="G_WP_187429790_1" fbc:label="G_WP_187429790_1"/>
       <fbc:geneProduct fbc:id="G_WP_187429786_1" fbc:name="G_WP_187429786_1" fbc:label="G_WP_187429786_1"/>
@@ -64338,6 +65104,19 @@
       <fbc:geneProduct fbc:id="G_WP_187432142_1" fbc:name="G_WP_187432142_1" fbc:label="G_WP_187432142_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432140_1" fbc:name="G_WP_187432140_1" fbc:label="G_WP_187432140_1"/>
       <fbc:geneProduct fbc:id="G_WP_187432143_1" fbc:name="G_WP_187432143_1" fbc:label="G_WP_187432143_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187429786_1" fbc:name="G_WP_187429786_1" fbc:label="G_WP_187429786_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429836_1" fbc:name="G_WP_187429836_1" fbc:label="G_WP_187429836_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429788_1" fbc:name="G_WP_187429788_1" fbc:label="G_WP_187429788_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429790_1" fbc:name="G_WP_187429790_1" fbc:label="G_WP_187429790_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429791_1" fbc:name="G_WP_187429791_1" fbc:label="G_WP_187429791_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429787_1" fbc:name="G_WP_187429787_1" fbc:label="G_WP_187429787_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187429792_1" fbc:name="G_WP_187429792_1" fbc:label="G_WP_187429792_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432144_1" fbc:name="G_WP_187432144_1" fbc:label="G_WP_187432144_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432143_1" fbc:name="G_WP_187432143_1" fbc:label="G_WP_187432143_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432140_1" fbc:name="G_WP_187432140_1" fbc:label="G_WP_187432140_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187432142_1" fbc:name="G_WP_187432142_1" fbc:label="G_WP_187432142_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
       <fbc:geneProduct fbc:id="G_WP_187431002_1" fbc:name="G_WP_187431002_1" fbc:label="G_WP_187431002_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428147_1" fbc:name="G_WP_187428147_1" fbc:label="G_WP_187428147_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430195_1" fbc:name="G_WP_187430195_1" fbc:label="G_WP_187430195_1"/>
@@ -64345,6 +65124,7 @@
       <fbc:geneProduct fbc:id="G_WP_187429732_1" fbc:name="G_WP_187429732_1" fbc:label="G_WP_187429732_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428145_1" fbc:name="G_WP_187428145_1" fbc:label="G_WP_187428145_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428818_1" fbc:name="G_WP_187428818_1" fbc:label="G_WP_187428818_1"/>
+<<<<<<< HEAD
       <fbc:geneProduct fbc:id="G_WP_187430857_1" fbc:name="G_WP_187430857_1" fbc:label="G_WP_187430857_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428821_1" fbc:name="G_WP_187428821_1" fbc:label="G_WP_187428821_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428822_1" fbc:name="G_WP_187428822_1" fbc:label="G_WP_187428822_1"/>
@@ -64353,6 +65133,16 @@
       <fbc:geneProduct fbc:id="G_WP_187428793_1" fbc:name="G_WP_187428793_1" fbc:label="G_WP_187428793_1"/>
       <fbc:geneProduct fbc:id="G_WP_187428795_1" fbc:name="G_WP_187428795_1" fbc:label="G_WP_187428795_1"/>
       <fbc:geneProduct fbc:id="G_WP_187430390_1" fbc:name="G_WP_187430390_1" fbc:label="G_WP_187430390_1"/>
+=======
+      <fbc:geneProduct fbc:id="G_WP_187428822_1" fbc:name="G_WP_187428822_1" fbc:label="G_WP_187428822_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428821_1" fbc:name="G_WP_187428821_1" fbc:label="G_WP_187428821_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430857_1" fbc:name="G_WP_187430857_1" fbc:label="G_WP_187430857_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187431110_1" fbc:name="G_WP_187431110_1" fbc:label="G_WP_187431110_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428795_1" fbc:name="G_WP_187428795_1" fbc:label="G_WP_187428795_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187430390_1" fbc:name="G_WP_187430390_1" fbc:label="G_WP_187430390_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428796_1" fbc:name="G_WP_187428796_1" fbc:label="G_WP_187428796_1"/>
+      <fbc:geneProduct fbc:id="G_WP_187428793_1" fbc:name="G_WP_187428793_1" fbc:label="G_WP_187428793_1"/>
+>>>>>>> 68ad92380fa5fd401f8fa1cb062ad3e51cf95d77
     </fbc:listOfGeneProducts>
   </model>
 </sbml>
