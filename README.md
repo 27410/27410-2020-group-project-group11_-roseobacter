@@ -1,6 +1,6 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/27410/[PUT-YOUR-REPOSITORY-HERE]/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/27410/27410-2020-group-project-group11_-roseobacter/main)
 
-# 27410 - Group assignment - Group 11 - [TITLE]
+# 27410 - Group assignment - Group 11 - [Laccase production in Roseobacter Litoralis ]
 
 > Dear students, thank you for accepting the group assignment. Please fill in the
 > requested information below and above ([Group Number] and [TITLE]) and remove this quoted part before submission (everything prepended with a >).
@@ -14,6 +14,25 @@
 ## Project summary (<300 words)
 Describe the overall aim of your project and what you have achieved.
 
+The goal of our project is to produce the enzyme laccase in roseobacter litoralis. Laccase is able to degrade polyethylene and is produced in a bacteria with high salt tolerance so that it can be used in ocean water. 
+
+We were able to ....
+but we didnt quite achieve.. 
+
 ## Project overview
 Describe how your project is organized ...
 
+We started by using carveme to create a draft reconstruction of roseobacter litoralis strain B14 from the genome database in NCBI and
+gapfille dit witl LB Medium. 
+
+Next, we loaded the model with cobrapy and used escher to draw a pathway map of the central carbon metabolism. We will use this map and add reactions later on during the project.. 
+
+We researched the amino acid compostion of laccase and added a reaction to our model which consumes these amino acids. 
+
+As a next step, we compared our maximal growth rate to the one found in the literture and we saw that our growth rate is much higher than the value found in the litertaure (0.69 compared to 0.27). This is why we reduced the carbon sources until we got a growth rate comparable to the literature value. 
+
+Afterwards, we checked if our model is able to grow or not grow on the same carbon and nitrogen sources and in the same medium as found by the literature. 
+
+
+
+All this a to be found in the notebook file in this repository. 
