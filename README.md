@@ -29,10 +29,13 @@ Next, we loaded the model with cobrapy and used escher to draw a pathway map of 
 
 We researched the amino acid compostion of laccase and added a reaction to our model which consumes these amino acids. 
 
-As a next step, we compared our maximal growth rate to the one found in the literture and we saw that our growth rate is much higher than the value found in the litertaure (0.69 compared to 0.27). This is why we reduced the carbon sources until we got a growth rate comparable to the literature value. 
+As a next step, we compared our maximal growth rate to the one found in the literture and we saw that our growth rate is much higher than the value found in the litertaure (0.69 compared to 0.27). This is why we reduced the carbon sources until we got a growth rate comparable to the literature value.
+Other than that, we were not able to find more literature data like fluxes for example. 
+
 
 Afterwards, we checked if our model is able to grow or not grow on the same carbon and nitrogen sources and in the same medium as found by the literature. 
 
-
+Next: -further experimnets to improve the model, if model is good enough; look at laccase production pathway and improve the fluxes in this direction. 
+-Use memote 
 
 All this a to be found in the notebook file in this repository. 
