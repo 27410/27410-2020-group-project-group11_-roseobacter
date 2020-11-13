@@ -23,13 +23,13 @@ but we didnt quite achieve..
 Describe how your project is organized ...
 
 We started by using carveme to create a draft reconstruction of roseobacter litoralis strain B14 from the genome database in NCBI and
-gapfille dit witl LB Medium. 
+gapfilled it with LB Medium. 
 
 Next, we loaded the model with cobrapy and used escher to draw a pathway map of the central carbon metabolism. We will use this map and add reactions later on during the project.. 
 
-We researched the amino acid compostion of laccase and added a reaction to our model which consumes these amino acids. 
+We researched the amino acid composition of laccase and added a reaction to our model which consumes these amino acids. 
 
-As a next step, we compared our maximal growth rate to the one found in the literture and we saw that our growth rate is much higher than the value found in the litertaure (0.69 compared to 0.27). This is why we reduced the carbon sources until we got a growth rate comparable to the literature value.
+As a next step, we compared our maximal growth rate to the one found in the literature and we saw that our growth rate is much higher than the value found in the literature (0.69 compared to 0.27). This is why we reduced the carbon sources until we got a growth rate comparable to the literature value.
 Other than that, we were not able to find more literature data like fluxes for example. 
 
 
