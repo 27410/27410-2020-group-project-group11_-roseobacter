@@ -22,6 +22,17 @@ but we didnt quite achieve..
 ## Project overview
 Describe how your project is organized ...
 
+File description:
+The "Report.ipynb" file includes our report of the project
+The "requirements.txt" file includes information about the Python packages that have been used 
+The "Notebook-with-aa.ipynb" file includes codes for building the model in carveme and the map of the model in escher
+The "Notebook.ipynb" file includes codes for building the model in carveme and the map of the model in escher
+The "Roseobacter-litoralis-strain-B14.html" file includes the memote report 
+The "Roseobacter-litoralis-strain-B14.xml" file includes the final model from carveme 
+
+
+## Description of our work process
+
 We started by using carveme to create a draft reconstruction of roseobacter litoralis strain B14 from the genome database in NCBI and
 gapfilled it with LB Medium. 
 

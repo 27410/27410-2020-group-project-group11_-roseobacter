@@ -1,1 +1,4 @@
+Python packages used in this project:
+escher
+cobra.io
 
