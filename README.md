@@ -25,11 +25,14 @@ Describe how your project is organized ...
 File description:
 The "Report.ipynb" file includes our report of the project
 The "requirements.txt" file includes information about the Python packages that have been used 
-The "Notebook-with-aa.ipynb" file includes codes for building the model in carveme and the map of the model in escher
 The "Notebook.ipynb" file includes codes for building the model in carveme and the map of the model in escher
 The "Roseobacter-litoralis-strain-B14.html" file includes the memote report 
 The "Roseobacter-litoralis-strain-B14.xml" file includes the final model from carveme 
-
+The "Roseobacter-litoralis-strain-B14.SBML" file includes
+The "iML1515.xml" file is the E. coli model
+The "all_fluxes.csv" a csv file with all the fluxes to be loaded in escher
+The "carveme_model.json" is a json file with the carveme model
+The "Yield_Comparition.ipynb" file includes adding the laccase reaction to the model and comparison of the production of laccase in E. coli and R. litoralis
 
 ## Description of our work process
 
