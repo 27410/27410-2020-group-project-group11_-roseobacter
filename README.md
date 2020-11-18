@@ -29,6 +29,9 @@ The "Notebook-with-aa.ipynb" file includes codes for building the model in carve
 The "Notebook.ipynb" file includes codes for building the model in carveme and the map of the model in escher
 The "Roseobacter-litoralis-strain-B14.html" file includes the memote report 
 The "Roseobacter-litoralis-strain-B14.xml" file includes the final model from carveme 
+The "iML1515.xml" file is the E. Coli model
+The "all_fluxes.csv" a csv file with all the fluxes to be loaded in escher
+The "carveme_model.json" is a json file with the carveme model
 
 
 ## Description of our work process
