@@ -14,7 +14,9 @@
 ## Project summary (<300 words)
 Describe the overall aim of your project and what you have achieved.
 
-The goal of our project is to produce the enzyme laccase in roseobacter litoralis. Laccase is able to degrade polyethylene and is produced in a bacteria with high salt tolerance so that it can be used in ocean water. 
+The goal of our project is to produce the enzyme laccase in roseobacter litoralis. Laccase is able to degrade polyethylene and is produced in a bacteria with high salt tolerance so that it can be used in ocean water.
+The project will focus on the reconstruction of a GSM for roseobacter litoralis. We constructed the model, and adjusted the media according to the growth rate. We also evaluated the model with MEMOTE, and validated it with growth experiments. We also checked the yield of laccase in rosebacter litoralis compared to the yield in E. col to check if roseobacter is a good production organism.
+We didn't have any experimental data with fluxes or similar, so we were not able to adjust our model based on such. Also, we didn't do any genetic manipulation to increase the yield of laccase.
 
 We were able to ....
 but we didnt quite achieve.. 
@@ -28,7 +30,7 @@ The "requirements.txt" file includes information about the Python packages that 
 The "Notebook.ipynb" file includes codes for building the model in carveme and the map of the model in escher
 The "Roseobacter-litoralis-strain-B14.html" file includes the memote report 
 The "Roseobacter-litoralis-strain-B14.xml" file includes the final model from carveme 
-The "Roseobacter-litoralis-strain-B14.SBML" file includes
+The "Roseobacter-litoralis-strain-B14.SBML" file includes the final model from carveme 
 The "iML1515.xml" file is the E. coli model
 The "all_fluxes.csv" a csv file with all the fluxes to be loaded in escher
 The "carveme_model.json" is a json file with the carveme model
