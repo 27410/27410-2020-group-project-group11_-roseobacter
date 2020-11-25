@@ -1,0 +1,44 @@
+Carbon source,Growth in experiment,Growth in model
+L-Alanine,Yes,Yes
+L-Arginine,Yes,Yes
+L-Aspartate,Yes,Yes
+L-Glutamate,No,Yes
+L-Glutamine,Yes,Yes
+Glycine,Yes,Yes
+L-Histidine,Yes,Yes
+L-Isoleucine,No,No
+L-Leucine,No,No
+L-Lysine,No,Yes
+L-Methionine,No,No
+Ornithine,Yes,Yes
+L-Proline,Yes,Yes
+D-Serine,Yes,Yes
+L-Threonine,Yes,Yes
+L-Valine,No,No
+Cellobiose,No,Yes
+D Arabinose C5H10O5,No,No
+L-Arabinose,No,Yes
+D-Fructose,Yes,Yes
+L-Fucose,Yes,Yes
+D-Galactose,Yes,Yes
+D-Glucosamine,Yes,No
+D-Glucose,No,Yes
+Lactose,No,Yes
+D-Lactate,Yes,Yes
+L-Lactate,Yes,Yes
+Maltose,No,Yes
+D-Mannitol,Yes,Yes
+D-Mannose,Yes,Yes
+Melibiose,Yes,Yes
+L-Rhamnose,Yes,Yes
+D-Ribose,Yes,Yes
+Sucrose,No,Yes
+D-Sorbitol,No,Yes
+Trehalose,No,Yes
+D-Xylose,Yes,Yes
+Choline,Yes,No
+Glycine betaine,Yes,No
+Putrescine,Yes,Yes
+Taurine,No,No
+Ethanol,Yes,Yes
+Glycerol,Yes,Yes
